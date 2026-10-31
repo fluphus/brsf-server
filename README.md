@@ -4,7 +4,7 @@ BRS FRAGMENT 的本地服务端、WebUI 管理界面和 Android 宿主。PC 与 
 
 **构建源码 → 导入一个配套资源包 → 启动服务。** 不需要额外的私有输入包或开发者原工作目录。游戏客户端单独安装。
 
-配套资源见 [v0.1.14 发行页](https://github.com/fluphus/brsf-server/releases/tag/v0.1.14)。下载四个分段、校验清单及一个合并工具，按[资源下载与导入说明](docs/resource-import.md)生成单个 `brs-resources.tar`。
+配套资源见 [v0.1.14 发行页](https://github.com/fluphus/brsf-server/releases/tag/v0.1.14)。下载全部 ZIP 分卷并保存在同一个文件夹，用支持分卷 ZIP 的解压工具打开 `.zip` 文件，解压得到 `brs-resources.tar`。详见[资源下载与导入说明](docs/resource-import.md)。
 
 ## 仓库内容
 
@@ -61,4 +61,4 @@ python -B tests/tools/test_source_tree.py
 python tools/check-source-tree.py
 ```
 
-测试源码留在仓库供维护使用，不打进正式 APK。构建缓存、运行日志、资源附件、签名文件及账号数据库不应提交到 Git。
+测试源码留在仓库供维护使用，不打进正式 APK。

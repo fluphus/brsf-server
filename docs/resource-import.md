@@ -1,30 +1,19 @@
 # 一个资源包完成设置
 
-使用配套的 `brs-resources.tar`。它是标准的、不额外压缩的 TAR 归档，包含原来的 `content.zip` 和宿主需要的资源目录、模板、图标及固定协议材料。原游戏资源 ZIP 的字节不变，不需要用户手动解压、复制或准备第二个输入包。
+使用配套的 `brs-resources.tar`。它是标准的、不额外压缩的 TAR 归档，包含原来的 `content.zip` 和宿主需要的资源目录、模板、图标及固定协议材料。原游戏资源 ZIP 的字节不变；导入时无需解开 TAR 内的 `content.zip`、手动复制资源或准备第二个输入包。
 
 ## 下载资源包
 
-在 [v0.1.14 发行页](https://github.com/fluphus/brsf-server/releases/tag/v0.1.14)下载以下附件，全部保存在同一个文件夹：
+在 [v0.1.14 发行页](https://github.com/fluphus/brsf-server/releases/tag/v0.1.14)下载全部 ZIP 分卷，保存在同一个文件夹：
 
-- `brs-resources.tar.001`、`brs-resources.tar.002`、`brs-resources.tar.003`、`brs-resources.tar.004`
-- `resources-parts.json` 校验清单
-- Windows 下载 `merge-resources.ps1`；其他系统下载 `merge_resources.py`（需要 Python 3）。任选一个合并工具即可。
+- `brs-resources.z01`
+- `brs-resources.z02`
+- `brs-resources.z03`
+- `brs-resources.zip`
 
-Windows 在该文件夹打开 PowerShell，执行：
+使用支持分卷 ZIP 的解压工具打开 `brs-resources.zip`，解压得到一个 `brs-resources.tar`。解压工具会自动读取同文件夹中的其余分卷；保留各文件的原名即可。
 
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\merge-resources.ps1
-```
-
-其他系统执行：
-
-```sh
-python3 ./merge_resources.py
-```
-
-工具默认读取自身所在文件夹，逐个校验分段的大小与 SHA-256，全部通过后生成一个字节不变的 `brs-resources.tar`。分段按原始字节连接，不需要解压。合并需要额外约 8.21 GB 空间；保留下载分段时合计约 16.41 GB。已有同名输出时工具会停止，不会覆盖。校验失败时重新下载提示的分段后重试。成功后即可按下面步骤导入这一个 TAR；分段和合并工具不需要导入。
-
-若工具与下载文件分开放置，可分别使用 `-Directory "下载文件夹"` 或 `--directory "下载文件夹"` 指定清单与分段所在目录。源码仓库中的工具位于 `tools/`。
+ZIP 分卷只是下载包装，解压得到的 TAR 与原资源包字节一致。解压需要额外约 8.21 GB 空间；同时保留下载分卷时合计约 16.41 GB。接下来按下面步骤导入这一个 `brs-resources.tar`。
 
 ## 导入
 

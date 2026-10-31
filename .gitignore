@@ -41,6 +41,7 @@ backups/
 *.xapk
 *.obb
 *.zip
+*.z[0-9][0-9]
 *.7z
 *.tar
 *.tar.gz
