@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../server/Content/Brs.Portable.Content.csproj" />
+    <Compile Include="../../android/NativeOperations.cs" Link="NativeOperations.cs" />
+    <Compile Include="../../android/NativeExport.cs" Link="NativeExport.cs" />
+    <Compile Include="../../android/ImportStageCleanup.cs" Link="ImportStageCleanup.cs" />
+  </ItemGroup>
+</Project>

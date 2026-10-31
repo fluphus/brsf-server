@@ -1,0 +1,5906 @@
+{
+  "policy_version": "local-general-present-v1",
+  "source_master_sha256": "8082ce3e3746a8e38d58c7e640892b80caef374f767a1d39f84db94d7108945b",
+  "history_days": 7,
+  "history_max": 100,
+  "page_size": 50,
+  "filtered_display_max": 1000,
+  "warning_seconds": 86400,
+  "ordinary_equip_capacity": 999,
+  "equip_sell_row_limit": 20,
+  "auto_sale_sort": "total-original-sale-GF-rarity-created-ID",
+  "duplicate_title_policy": "consume-no-credit-no-invented-conversion",
+  "tables": {
+    "CardMaster": [
+      {
+        "CardId": 30010002,
+        "CharaId": 2,
+        "DefaultCardSkinId": 300100021,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 30010003,
+        "CharaId": 3,
+        "DefaultCardSkinId": 300100031,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 30010004,
+        "CharaId": 4,
+        "DefaultCardSkinId": 300100041,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 40060015,
+        "CharaId": 15,
+        "DefaultCardSkinId": 400600151,
+        "Rarity": 4,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 40080014,
+        "CharaId": 14,
+        "DefaultCardSkinId": 400800141,
+        "Rarity": 4,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 40110011,
+        "CharaId": 11,
+        "DefaultCardSkinId": 401100111,
+        "Rarity": 4,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 40120010,
+        "CharaId": 10,
+        "DefaultCardSkinId": 401200101,
+        "Rarity": 4,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 40170006,
+        "CharaId": 6,
+        "DefaultCardSkinId": 401700061,
+        "Rarity": 4,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 40210213,
+        "CharaId": 213,
+        "DefaultCardSkinId": 402102131,
+        "Rarity": 4,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50010001,
+        "CharaId": 1,
+        "DefaultCardSkinId": 500100011,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50010002,
+        "CharaId": 2,
+        "DefaultCardSkinId": 500100021,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50010003,
+        "CharaId": 3,
+        "DefaultCardSkinId": 500100031,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50010004,
+        "CharaId": 4,
+        "DefaultCardSkinId": 500100041,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50010005,
+        "CharaId": 5,
+        "DefaultCardSkinId": 500100051,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50010006,
+        "CharaId": 6,
+        "DefaultCardSkinId": 500100061,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50010007,
+        "CharaId": 7,
+        "DefaultCardSkinId": 500100071,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50010008,
+        "CharaId": 8,
+        "DefaultCardSkinId": 500100081,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50010009,
+        "CharaId": 9,
+        "DefaultCardSkinId": 500100091,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50010010,
+        "CharaId": 10,
+        "DefaultCardSkinId": 500100101,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50010011,
+        "CharaId": 11,
+        "DefaultCardSkinId": 500100111,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50010012,
+        "CharaId": 12,
+        "DefaultCardSkinId": 500100121,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50010013,
+        "CharaId": 13,
+        "DefaultCardSkinId": 500100131,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50010014,
+        "CharaId": 14,
+        "DefaultCardSkinId": 500100141,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50010015,
+        "CharaId": 15,
+        "DefaultCardSkinId": 500100151,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50010016,
+        "CharaId": 16,
+        "DefaultCardSkinId": 500100161,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50010017,
+        "CharaId": 17,
+        "DefaultCardSkinId": 500100171,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50010018,
+        "CharaId": 18,
+        "DefaultCardSkinId": 500100181,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50010019,
+        "CharaId": 19,
+        "DefaultCardSkinId": 500100191,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50011001,
+        "CharaId": 1,
+        "DefaultCardSkinId": 500110011,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50012001,
+        "CharaId": 1,
+        "DefaultCardSkinId": 500120011,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50020005,
+        "CharaId": 5,
+        "DefaultCardSkinId": 500200051,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50020006,
+        "CharaId": 6,
+        "DefaultCardSkinId": 500200061,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50020007,
+        "CharaId": 7,
+        "DefaultCardSkinId": 500200071,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50020008,
+        "CharaId": 8,
+        "DefaultCardSkinId": 500200081,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50030201,
+        "CharaId": 201,
+        "DefaultCardSkinId": 500302011,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50030202,
+        "CharaId": 202,
+        "DefaultCardSkinId": 500302021,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50030203,
+        "CharaId": 203,
+        "DefaultCardSkinId": 500302031,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50040001,
+        "CharaId": 1,
+        "DefaultCardSkinId": 500400011,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50040002,
+        "CharaId": 2,
+        "DefaultCardSkinId": 500400021,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50040003,
+        "CharaId": 3,
+        "DefaultCardSkinId": 500400031,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50040004,
+        "CharaId": 4,
+        "DefaultCardSkinId": 500400041,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50050012,
+        "CharaId": 12,
+        "DefaultCardSkinId": 500500121,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50050013,
+        "CharaId": 13,
+        "DefaultCardSkinId": 500500131,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50050014,
+        "CharaId": 14,
+        "DefaultCardSkinId": 500500141,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50060002,
+        "CharaId": 2,
+        "DefaultCardSkinId": 500600021,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50060003,
+        "CharaId": 3,
+        "DefaultCardSkinId": 500600031,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50070009,
+        "CharaId": 9,
+        "DefaultCardSkinId": 500700091,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50070010,
+        "CharaId": 10,
+        "DefaultCardSkinId": 500700101,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50070011,
+        "CharaId": 11,
+        "DefaultCardSkinId": 500700111,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50080006,
+        "CharaId": 6,
+        "DefaultCardSkinId": 500800061,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50080018,
+        "CharaId": 18,
+        "DefaultCardSkinId": 500800181,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50090015,
+        "CharaId": 15,
+        "DefaultCardSkinId": 500900151,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50090016,
+        "CharaId": 16,
+        "DefaultCardSkinId": 500900161,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50090017,
+        "CharaId": 17,
+        "DefaultCardSkinId": 500900171,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50090018,
+        "CharaId": 18,
+        "DefaultCardSkinId": 500900181,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50100204,
+        "CharaId": 204,
+        "DefaultCardSkinId": 501002041,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50100205,
+        "CharaId": 205,
+        "DefaultCardSkinId": 501002051,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50100206,
+        "CharaId": 206,
+        "DefaultCardSkinId": 501002061,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50100207,
+        "CharaId": 207,
+        "DefaultCardSkinId": 501002071,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50110001,
+        "CharaId": 1,
+        "DefaultCardSkinId": 501100011,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50110008,
+        "CharaId": 8,
+        "DefaultCardSkinId": 501100081,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50120001,
+        "CharaId": 1,
+        "DefaultCardSkinId": 501200011,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50120004,
+        "CharaId": 4,
+        "DefaultCardSkinId": 501200041,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50120016,
+        "CharaId": 16,
+        "DefaultCardSkinId": 501200161,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50130006,
+        "CharaId": 6,
+        "DefaultCardSkinId": 501300061,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50130007,
+        "CharaId": 7,
+        "DefaultCardSkinId": 501300071,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50160016,
+        "CharaId": 16,
+        "DefaultCardSkinId": 501600161,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50170001,
+        "CharaId": 1,
+        "DefaultCardSkinId": 501700011,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50170007,
+        "CharaId": 7,
+        "DefaultCardSkinId": 501700071,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50170013,
+        "CharaId": 13,
+        "DefaultCardSkinId": 501700131,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50190001,
+        "CharaId": 1,
+        "DefaultCardSkinId": 501900011,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50200208,
+        "CharaId": 208,
+        "DefaultCardSkinId": 502002081,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50200209,
+        "CharaId": 209,
+        "DefaultCardSkinId": 502002091,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50200210,
+        "CharaId": 210,
+        "DefaultCardSkinId": 502002101,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50210026,
+        "CharaId": 26,
+        "DefaultCardSkinId": 502100261,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "CardId": 50210212,
+        "CharaId": 212,
+        "DefaultCardSkinId": 502102121,
+        "Rarity": 5,
+        "IsDeleted": false
+      }
+    ],
+    "EquipMaster": [
+      {
+        "EquipId": 110100101,
+        "EquipGroupId": 1101001,
+        "EquipType": 101,
+        "Rarity": 1,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021001",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 20,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 110100102,
+        "EquipGroupId": 1101001,
+        "EquipType": 101,
+        "Rarity": 1,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021002",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 20,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 110100103,
+        "EquipGroupId": 1101001,
+        "EquipType": 101,
+        "Rarity": 1,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021003",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 20,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 110200101,
+        "EquipGroupId": 1102001,
+        "EquipType": 102,
+        "Rarity": 1,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71011001",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 20,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 110200102,
+        "EquipGroupId": 1102001,
+        "EquipType": 102,
+        "Rarity": 1,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71011002",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 20,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 110200103,
+        "EquipGroupId": 1102001,
+        "EquipType": 102,
+        "Rarity": 1,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71011003",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 20,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 110200104,
+        "EquipGroupId": 1102001,
+        "EquipType": 102,
+        "Rarity": 1,
+        "EquipSkillId": 52010001,
+        "FreePropertyIds": "71011001",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 20,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 110200105,
+        "EquipGroupId": 1102001,
+        "EquipType": 102,
+        "Rarity": 1,
+        "EquipSkillId": 52010001,
+        "FreePropertyIds": "71011002",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 20,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 110200106,
+        "EquipGroupId": 1102001,
+        "EquipType": 102,
+        "Rarity": 1,
+        "EquipSkillId": 52010001,
+        "FreePropertyIds": "71011003",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 20,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 111100101,
+        "EquipGroupId": 1111001,
+        "EquipType": 111,
+        "Rarity": 1,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021001",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 20,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 111100102,
+        "EquipGroupId": 1111001,
+        "EquipType": 111,
+        "Rarity": 1,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021002",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 20,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 111100103,
+        "EquipGroupId": 1111001,
+        "EquipType": 111,
+        "Rarity": 1,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021003",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 20,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 111100104,
+        "EquipGroupId": 1111001,
+        "EquipType": 111,
+        "Rarity": 1,
+        "EquipSkillId": 52030001,
+        "FreePropertyIds": "71021001",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 20,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 111100105,
+        "EquipGroupId": 1111001,
+        "EquipType": 111,
+        "Rarity": 1,
+        "EquipSkillId": 52030001,
+        "FreePropertyIds": "71021002",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 20,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 111100106,
+        "EquipGroupId": 1111001,
+        "EquipType": 111,
+        "Rarity": 1,
+        "EquipSkillId": 52030001,
+        "FreePropertyIds": "71021003",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 20,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 111200101,
+        "EquipGroupId": 1112001,
+        "EquipType": 112,
+        "Rarity": 1,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71011001",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 20,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 111200102,
+        "EquipGroupId": 1112001,
+        "EquipType": 112,
+        "Rarity": 1,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71011002",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 20,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 111200103,
+        "EquipGroupId": 1112001,
+        "EquipType": 112,
+        "Rarity": 1,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71011003",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 20,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 111200104,
+        "EquipGroupId": 1112001,
+        "EquipType": 112,
+        "Rarity": 1,
+        "EquipSkillId": 52050001,
+        "FreePropertyIds": "71011001",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 20,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 111200105,
+        "EquipGroupId": 1112001,
+        "EquipType": 112,
+        "Rarity": 1,
+        "EquipSkillId": 52050001,
+        "FreePropertyIds": "71011002",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 20,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 111200106,
+        "EquipGroupId": 1112001,
+        "EquipType": 112,
+        "Rarity": 1,
+        "EquipSkillId": 52050001,
+        "FreePropertyIds": "71011003",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 20,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 111300101,
+        "EquipGroupId": 1113001,
+        "EquipType": 113,
+        "Rarity": 1,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021001",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 20,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 111300102,
+        "EquipGroupId": 1113001,
+        "EquipType": 113,
+        "Rarity": 1,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021002",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 20,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 111300103,
+        "EquipGroupId": 1113001,
+        "EquipType": 113,
+        "Rarity": 1,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021003",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 20,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 120100101,
+        "EquipGroupId": 1201001,
+        "EquipType": 201,
+        "Rarity": 1,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71011001",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 20,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 120100102,
+        "EquipGroupId": 1201001,
+        "EquipType": 201,
+        "Rarity": 1,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71011002",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 20,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 120100103,
+        "EquipGroupId": 1201001,
+        "EquipType": 201,
+        "Rarity": 1,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71011003",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 20,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 130100100,
+        "EquipGroupId": 1301001,
+        "EquipType": 301,
+        "Rarity": 1,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "",
+        "FreePropertySlotCount": 0,
+        "BaseSalePrice": 5,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 210100101,
+        "EquipGroupId": 2101001,
+        "EquipType": 101,
+        "Rarity": 2,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71011004",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 210100102,
+        "EquipGroupId": 2101001,
+        "EquipType": 101,
+        "Rarity": 2,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71011005",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 210100103,
+        "EquipGroupId": 2101001,
+        "EquipType": 101,
+        "Rarity": 2,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71011006",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 210100104,
+        "EquipGroupId": 2101001,
+        "EquipType": 101,
+        "Rarity": 2,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71011007",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 210100105,
+        "EquipGroupId": 2101001,
+        "EquipType": 101,
+        "Rarity": 2,
+        "EquipSkillId": 52020001,
+        "FreePropertyIds": "71011004",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 210100106,
+        "EquipGroupId": 2101001,
+        "EquipType": 101,
+        "Rarity": 2,
+        "EquipSkillId": 52020001,
+        "FreePropertyIds": "71011005",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 210100107,
+        "EquipGroupId": 2101001,
+        "EquipType": 101,
+        "Rarity": 2,
+        "EquipSkillId": 52020001,
+        "FreePropertyIds": "71011006",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 210100108,
+        "EquipGroupId": 2101001,
+        "EquipType": 101,
+        "Rarity": 2,
+        "EquipSkillId": 52020001,
+        "FreePropertyIds": "71011007",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 210200101,
+        "EquipGroupId": 2102001,
+        "EquipType": 102,
+        "Rarity": 2,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71011004",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 210200102,
+        "EquipGroupId": 2102001,
+        "EquipType": 102,
+        "Rarity": 2,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71011005",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 210200103,
+        "EquipGroupId": 2102001,
+        "EquipType": 102,
+        "Rarity": 2,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71011006",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 210200104,
+        "EquipGroupId": 2102001,
+        "EquipType": 102,
+        "Rarity": 2,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71011007",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 211100101,
+        "EquipGroupId": 2111001,
+        "EquipType": 111,
+        "Rarity": 2,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021004",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 211100102,
+        "EquipGroupId": 2111001,
+        "EquipType": 111,
+        "Rarity": 2,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021005",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 211100103,
+        "EquipGroupId": 2111001,
+        "EquipType": 111,
+        "Rarity": 2,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021006",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 211100104,
+        "EquipGroupId": 2111001,
+        "EquipType": 111,
+        "Rarity": 2,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021007",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 211200101,
+        "EquipGroupId": 2112001,
+        "EquipType": 112,
+        "Rarity": 2,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021004",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 211200102,
+        "EquipGroupId": 2112001,
+        "EquipType": 112,
+        "Rarity": 2,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021005",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 211200103,
+        "EquipGroupId": 2112001,
+        "EquipType": 112,
+        "Rarity": 2,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021006",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 211200104,
+        "EquipGroupId": 2112001,
+        "EquipType": 112,
+        "Rarity": 2,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021007",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 211300101,
+        "EquipGroupId": 2113001,
+        "EquipType": 113,
+        "Rarity": 2,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021004",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 211300102,
+        "EquipGroupId": 2113001,
+        "EquipType": 113,
+        "Rarity": 2,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021005",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 211300103,
+        "EquipGroupId": 2113001,
+        "EquipType": 113,
+        "Rarity": 2,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021006",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 211300104,
+        "EquipGroupId": 2113001,
+        "EquipType": 113,
+        "Rarity": 2,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021007",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 211300105,
+        "EquipGroupId": 2113001,
+        "EquipType": 113,
+        "Rarity": 2,
+        "EquipSkillId": 52040001,
+        "FreePropertyIds": "71021004",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 211300106,
+        "EquipGroupId": 2113001,
+        "EquipType": 113,
+        "Rarity": 2,
+        "EquipSkillId": 52040001,
+        "FreePropertyIds": "71021005",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 211300107,
+        "EquipGroupId": 2113001,
+        "EquipType": 113,
+        "Rarity": 2,
+        "EquipSkillId": 52040001,
+        "FreePropertyIds": "71021006",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 211300108,
+        "EquipGroupId": 2113001,
+        "EquipType": 113,
+        "Rarity": 2,
+        "EquipSkillId": 52040001,
+        "FreePropertyIds": "71021007",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 220100101,
+        "EquipGroupId": 2201001,
+        "EquipType": 201,
+        "Rarity": 2,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71011004",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 220100102,
+        "EquipGroupId": 2201001,
+        "EquipType": 201,
+        "Rarity": 2,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71011005",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 220100103,
+        "EquipGroupId": 2201001,
+        "EquipType": 201,
+        "Rarity": 2,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71011006",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 220100104,
+        "EquipGroupId": 2201001,
+        "EquipType": 201,
+        "Rarity": 2,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71011007",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 60,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 230100100,
+        "EquipGroupId": 2301001,
+        "EquipType": 301,
+        "Rarity": 2,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "",
+        "FreePropertySlotCount": 0,
+        "BaseSalePrice": 15,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 310100100,
+        "EquipGroupId": 3101001,
+        "EquipType": 101,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021013",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 360,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 310100201,
+        "EquipGroupId": 3101002,
+        "EquipType": 101,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71082001",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 310100202,
+        "EquipGroupId": 3101002,
+        "EquipType": 101,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71082002",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 310100203,
+        "EquipGroupId": 3101002,
+        "EquipType": 101,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71082003",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 310100204,
+        "EquipGroupId": 3101002,
+        "EquipType": 101,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71082004",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 310100205,
+        "EquipGroupId": 3101002,
+        "EquipType": 101,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71082005",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 310100206,
+        "EquipGroupId": 3101002,
+        "EquipType": 101,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71082006",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 310100207,
+        "EquipGroupId": 3101002,
+        "EquipType": 101,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71082007",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 310100208,
+        "EquipGroupId": 3101002,
+        "EquipType": 101,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71082008",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 310100300,
+        "EquipGroupId": 3101003,
+        "EquipType": 101,
+        "Rarity": 3,
+        "EquipSkillId": 52010002,
+        "FreePropertyIds": "71092004",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 360,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 310100400,
+        "EquipGroupId": 3101004,
+        "EquipType": 101,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021013",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 360,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 310200100,
+        "EquipGroupId": 3102001,
+        "EquipType": 102,
+        "Rarity": 3,
+        "EquipSkillId": 52030002,
+        "FreePropertyIds": "71021013",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 360,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 310200200,
+        "EquipGroupId": 3102002,
+        "EquipType": 102,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71031006",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 360,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 310200300,
+        "EquipGroupId": 3102003,
+        "EquipType": 102,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71072004",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 360,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 310200401,
+        "EquipGroupId": 3102004,
+        "EquipType": 102,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021008",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 310200402,
+        "EquipGroupId": 3102004,
+        "EquipType": 102,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021009",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 310200403,
+        "EquipGroupId": 3102004,
+        "EquipType": 102,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021010",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 310200404,
+        "EquipGroupId": 3102004,
+        "EquipType": 102,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021011",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 310200405,
+        "EquipGroupId": 3102004,
+        "EquipType": 102,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021012",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 310200406,
+        "EquipGroupId": 3102004,
+        "EquipType": 102,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021013",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 310200407,
+        "EquipGroupId": 3102004,
+        "EquipType": 102,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021014",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 310200408,
+        "EquipGroupId": 3102004,
+        "EquipType": 102,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021015",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 310200409,
+        "EquipGroupId": 3102004,
+        "EquipType": 102,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021016",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 310200410,
+        "EquipGroupId": 3102004,
+        "EquipType": 102,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021017",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 310200411,
+        "EquipGroupId": 3102004,
+        "EquipType": 102,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021018",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 310200412,
+        "EquipGroupId": 3102004,
+        "EquipType": 102,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021019",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311100100,
+        "EquipGroupId": 3111001,
+        "EquipType": 111,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71052004",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 360,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311100201,
+        "EquipGroupId": 3111002,
+        "EquipType": 111,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021008",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311100202,
+        "EquipGroupId": 3111002,
+        "EquipType": 111,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021009",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311100203,
+        "EquipGroupId": 3111002,
+        "EquipType": 111,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021010",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311100204,
+        "EquipGroupId": 3111002,
+        "EquipType": 111,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021011",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311100205,
+        "EquipGroupId": 3111002,
+        "EquipType": 111,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021012",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311100206,
+        "EquipGroupId": 3111002,
+        "EquipType": 111,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021013",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311100207,
+        "EquipGroupId": 3111002,
+        "EquipType": 111,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021014",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311100208,
+        "EquipGroupId": 3111002,
+        "EquipType": 111,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021015",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311100209,
+        "EquipGroupId": 3111002,
+        "EquipType": 111,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021016",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311100210,
+        "EquipGroupId": 3111002,
+        "EquipType": 111,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021017",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311100211,
+        "EquipGroupId": 3111002,
+        "EquipType": 111,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021018",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311100212,
+        "EquipGroupId": 3111002,
+        "EquipType": 111,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021019",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311100300,
+        "EquipGroupId": 3111003,
+        "EquipType": 111,
+        "Rarity": 3,
+        "EquipSkillId": 52040002,
+        "FreePropertyIds": "71031006",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 360,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311100400,
+        "EquipGroupId": 3111004,
+        "EquipType": 111,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71061004",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 360,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311200100,
+        "EquipGroupId": 3112001,
+        "EquipType": 112,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71052004",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 360,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311200200,
+        "EquipGroupId": 3112002,
+        "EquipType": 112,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71061004",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 360,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311200300,
+        "EquipGroupId": 3112003,
+        "EquipType": 112,
+        "Rarity": 3,
+        "EquipSkillId": 52050002,
+        "FreePropertyIds": "71031006",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 360,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311200401,
+        "EquipGroupId": 3112004,
+        "EquipType": 112,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021008",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311200402,
+        "EquipGroupId": 3112004,
+        "EquipType": 112,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021009",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311200403,
+        "EquipGroupId": 3112004,
+        "EquipType": 112,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021010",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311200404,
+        "EquipGroupId": 3112004,
+        "EquipType": 112,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021011",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311200405,
+        "EquipGroupId": 3112004,
+        "EquipType": 112,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021012",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311200406,
+        "EquipGroupId": 3112004,
+        "EquipType": 112,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021013",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311200407,
+        "EquipGroupId": 3112004,
+        "EquipType": 112,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021014",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311200408,
+        "EquipGroupId": 3112004,
+        "EquipType": 112,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021015",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311200409,
+        "EquipGroupId": 3112004,
+        "EquipType": 112,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021016",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311200410,
+        "EquipGroupId": 3112004,
+        "EquipType": 112,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021017",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311200411,
+        "EquipGroupId": 3112004,
+        "EquipType": 112,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021018",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311200412,
+        "EquipGroupId": 3112004,
+        "EquipType": 112,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021019",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311300101,
+        "EquipGroupId": 3113001,
+        "EquipType": 113,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71052001",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311300102,
+        "EquipGroupId": 3113001,
+        "EquipType": 113,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71052002",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311300103,
+        "EquipGroupId": 3113001,
+        "EquipType": 113,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71052003",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311300104,
+        "EquipGroupId": 3113001,
+        "EquipType": 113,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71052004",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311300105,
+        "EquipGroupId": 3113001,
+        "EquipType": 113,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71052005",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311300106,
+        "EquipGroupId": 3113001,
+        "EquipType": 113,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71052006",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311300107,
+        "EquipGroupId": 3113001,
+        "EquipType": 113,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71052007",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311300108,
+        "EquipGroupId": 3113001,
+        "EquipType": 113,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71052008",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311300200,
+        "EquipGroupId": 3113002,
+        "EquipType": 113,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71031006",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 360,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311300300,
+        "EquipGroupId": 3113003,
+        "EquipType": 113,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71011013",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 360,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 311300400,
+        "EquipGroupId": 3113004,
+        "EquipType": 113,
+        "Rarity": 3,
+        "EquipSkillId": 52020002,
+        "FreePropertyIds": "71052004",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 360,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 320100100,
+        "EquipGroupId": 3201001,
+        "EquipType": 201,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71031006",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 360,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 320100200,
+        "EquipGroupId": 3201002,
+        "EquipType": 201,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71061004",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 360,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 320100300,
+        "EquipGroupId": 3201003,
+        "EquipType": 201,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71031006",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 360,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 320100400,
+        "EquipGroupId": 3201004,
+        "EquipType": 201,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71031006",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 360,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 320100500,
+        "EquipGroupId": 3201005,
+        "EquipType": 201,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71052004",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 360,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 320100600,
+        "EquipGroupId": 3201006,
+        "EquipType": 201,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021013",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 360,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 320100701,
+        "EquipGroupId": 3201007,
+        "EquipType": 201,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71072001",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 320100702,
+        "EquipGroupId": 3201007,
+        "EquipType": 201,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71072002",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 320100703,
+        "EquipGroupId": 3201007,
+        "EquipType": 201,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71072003",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 320100704,
+        "EquipGroupId": 3201007,
+        "EquipType": 201,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71072004",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 320100705,
+        "EquipGroupId": 3201007,
+        "EquipType": 201,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71072005",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 320100706,
+        "EquipGroupId": 3201007,
+        "EquipType": 201,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71072006",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 320100707,
+        "EquipGroupId": 3201007,
+        "EquipType": 201,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71072007",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 320100708,
+        "EquipGroupId": 3201007,
+        "EquipType": 201,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71072008",
+        "FreePropertySlotCount": 1,
+        "BaseSalePrice": 180,
+        "SaleItemQty": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 330100100,
+        "EquipGroupId": 3301001,
+        "EquipType": 301,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "",
+        "FreePropertySlotCount": 0,
+        "BaseSalePrice": 45,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 330200100,
+        "EquipGroupId": 3302001,
+        "EquipType": 302,
+        "Rarity": 3,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "",
+        "FreePropertySlotCount": 0,
+        "BaseSalePrice": 5,
+        "SaleItemQty": 10,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 410100100,
+        "EquipGroupId": 4101001,
+        "EquipType": 101,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71092008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 410100200,
+        "EquipGroupId": 4101002,
+        "EquipType": 101,
+        "Rarity": 4,
+        "EquipSkillId": 52010003,
+        "FreePropertyIds": "71011019",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 410100300,
+        "EquipGroupId": 4101003,
+        "EquipType": 101,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71052008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 410100400,
+        "EquipGroupId": 4101004,
+        "EquipType": 101,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71092008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 410100500,
+        "EquipGroupId": 4101005,
+        "EquipType": 101,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71031012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 410100600,
+        "EquipGroupId": 4101006,
+        "EquipType": 101,
+        "Rarity": 4,
+        "EquipSkillId": 52020003,
+        "FreePropertyIds": "71082008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 410100700,
+        "EquipGroupId": 4101007,
+        "EquipType": 101,
+        "Rarity": 4,
+        "EquipSkillId": 52040003,
+        "FreePropertyIds": "71072008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 540,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 410200100,
+        "EquipGroupId": 4102001,
+        "EquipType": 102,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71092008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 410200200,
+        "EquipGroupId": 4102002,
+        "EquipType": 102,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021019",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 410200300,
+        "EquipGroupId": 4102003,
+        "EquipType": 102,
+        "Rarity": 4,
+        "EquipSkillId": 52010003,
+        "FreePropertyIds": "71061008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 410200400,
+        "EquipGroupId": 4102004,
+        "EquipType": 102,
+        "Rarity": 4,
+        "EquipSkillId": 52010003,
+        "FreePropertyIds": "71011019",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 410200500,
+        "EquipGroupId": 4102005,
+        "EquipType": 102,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71082008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 410200600,
+        "EquipGroupId": 4102006,
+        "EquipType": 102,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71031012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 410200700,
+        "EquipGroupId": 4102007,
+        "EquipType": 102,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71032010",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 540,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 410200800,
+        "EquipGroupId": 4102008,
+        "EquipType": 102,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71032010",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 410200900,
+        "EquipGroupId": 4102009,
+        "EquipType": 102,
+        "Rarity": 4,
+        "EquipSkillId": 52030003,
+        "FreePropertyIds": "71022010",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411100100,
+        "EquipGroupId": 4111001,
+        "EquipType": 111,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71031012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411100200,
+        "EquipGroupId": 4111002,
+        "EquipType": 111,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71072008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411100300,
+        "EquipGroupId": 4111003,
+        "EquipType": 111,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71052008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411100400,
+        "EquipGroupId": 4111004,
+        "EquipType": 111,
+        "Rarity": 4,
+        "EquipSkillId": 52040003,
+        "FreePropertyIds": "71031012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411100500,
+        "EquipGroupId": 4111005,
+        "EquipType": 111,
+        "Rarity": 4,
+        "EquipSkillId": 52030003,
+        "FreePropertyIds": "71021019",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411100600,
+        "EquipGroupId": 4111006,
+        "EquipType": 111,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71031012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411100700,
+        "EquipGroupId": 4111007,
+        "EquipType": 111,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71031012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411100800,
+        "EquipGroupId": 4111008,
+        "EquipType": 111,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71082008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 540,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411100900,
+        "EquipGroupId": 4111009,
+        "EquipType": 111,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71061008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411101000,
+        "EquipGroupId": 4111010,
+        "EquipType": 111,
+        "Rarity": 4,
+        "EquipSkillId": 52020003,
+        "FreePropertyIds": "71012010",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411101100,
+        "EquipGroupId": 4111011,
+        "EquipType": 111,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71011017",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411200100,
+        "EquipGroupId": 4112001,
+        "EquipType": 112,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71011019",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411200200,
+        "EquipGroupId": 4112002,
+        "EquipType": 112,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021019",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411200300,
+        "EquipGroupId": 4112003,
+        "EquipType": 112,
+        "Rarity": 4,
+        "EquipSkillId": 52030003,
+        "FreePropertyIds": "71011019",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411200400,
+        "EquipGroupId": 4112004,
+        "EquipType": 112,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71052008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411200500,
+        "EquipGroupId": 4112005,
+        "EquipType": 112,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021019",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411200600,
+        "EquipGroupId": 4112006,
+        "EquipType": 112,
+        "Rarity": 4,
+        "EquipSkillId": 52050003,
+        "FreePropertyIds": "71011019",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411200700,
+        "EquipGroupId": 4112007,
+        "EquipType": 112,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71012010",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411200800,
+        "EquipGroupId": 4112008,
+        "EquipType": 112,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71072008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411200900,
+        "EquipGroupId": 4112009,
+        "EquipType": 112,
+        "Rarity": 4,
+        "EquipSkillId": 52050003,
+        "FreePropertyIds": "71022010",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 540,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411201000,
+        "EquipGroupId": 4112010,
+        "EquipType": 112,
+        "Rarity": 4,
+        "EquipSkillId": 52010003,
+        "FreePropertyIds": "71092008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411300100,
+        "EquipGroupId": 4113001,
+        "EquipType": 113,
+        "Rarity": 4,
+        "EquipSkillId": 52020003,
+        "FreePropertyIds": "71011019",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411300200,
+        "EquipGroupId": 4113002,
+        "EquipType": 113,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71092008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411300300,
+        "EquipGroupId": 4113003,
+        "EquipType": 113,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71061008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411300400,
+        "EquipGroupId": 4113004,
+        "EquipType": 113,
+        "Rarity": 4,
+        "EquipSkillId": 52040003,
+        "FreePropertyIds": "71061008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411300500,
+        "EquipGroupId": 4113005,
+        "EquipType": 113,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71072008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411300600,
+        "EquipGroupId": 4113006,
+        "EquipType": 113,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71092008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411300700,
+        "EquipGroupId": 4113007,
+        "EquipType": 113,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021019",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 411300800,
+        "EquipGroupId": 4113008,
+        "EquipType": 113,
+        "Rarity": 4,
+        "EquipSkillId": 52030003,
+        "FreePropertyIds": "71052008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 540,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420100100,
+        "EquipGroupId": 4201001,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021019",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420100200,
+        "EquipGroupId": 4201002,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71072008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420100300,
+        "EquipGroupId": 4201003,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71031012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420100400,
+        "EquipGroupId": 4201004,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021019",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420100500,
+        "EquipGroupId": 4201005,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71031012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420100600,
+        "EquipGroupId": 4201006,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021019",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420100700,
+        "EquipGroupId": 4201007,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71052008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420100800,
+        "EquipGroupId": 4201008,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021019",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420100900,
+        "EquipGroupId": 4201009,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71092008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420101000,
+        "EquipGroupId": 4201010,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71061008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420101100,
+        "EquipGroupId": 4201011,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71011019",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420101200,
+        "EquipGroupId": 4201012,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71031012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420101300,
+        "EquipGroupId": 4201013,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71031012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420101400,
+        "EquipGroupId": 4201014,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021019",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 540,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420101500,
+        "EquipGroupId": 4201015,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71072008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420101600,
+        "EquipGroupId": 4201016,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71011019",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420101700,
+        "EquipGroupId": 4201017,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71052008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 540,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420101800,
+        "EquipGroupId": 4201018,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71092010",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 540,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420101900,
+        "EquipGroupId": 4201019,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021019",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420102000,
+        "EquipGroupId": 4201020,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71072008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420102100,
+        "EquipGroupId": 4201021,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71022007",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 540,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420102200,
+        "EquipGroupId": 4201022,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71072007",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420102300,
+        "EquipGroupId": 4201023,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021019",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 540,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420102400,
+        "EquipGroupId": 4201024,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71012010",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420102500,
+        "EquipGroupId": 4201025,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71061008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 540,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420102600,
+        "EquipGroupId": 4201026,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71012010",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420102700,
+        "EquipGroupId": 4201027,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71072008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 540,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420102800,
+        "EquipGroupId": 4201028,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021019",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420102900,
+        "EquipGroupId": 4201029,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71012010",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 540,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420103000,
+        "EquipGroupId": 4201030,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71032010",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 540,
+        "SaleItemQty": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420103100,
+        "EquipGroupId": 4201031,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71031012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 420103200,
+        "EquipGroupId": 4201032,
+        "EquipType": 201,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71052008",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1080,
+        "SaleItemQty": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 430100100,
+        "EquipGroupId": 4301001,
+        "EquipType": 301,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "",
+        "FreePropertySlotCount": 0,
+        "BaseSalePrice": 135,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 430200100,
+        "EquipGroupId": 4302001,
+        "EquipType": 302,
+        "Rarity": 4,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "",
+        "FreePropertySlotCount": 0,
+        "BaseSalePrice": 15,
+        "SaleItemQty": 20,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510100100,
+        "EquipGroupId": 5101001,
+        "EquipType": 101,
+        "Rarity": 5,
+        "EquipSkillId": 52010003,
+        "FreePropertyIds": "71061012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510100200,
+        "EquipGroupId": 5101002,
+        "EquipType": 101,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71011025",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510100300,
+        "EquipGroupId": 5101003,
+        "EquipType": 101,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71052012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510100400,
+        "EquipGroupId": 5101004,
+        "EquipType": 101,
+        "Rarity": 5,
+        "EquipSkillId": 52010003,
+        "FreePropertyIds": "71012015",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510100500,
+        "EquipGroupId": 5101005,
+        "EquipType": 101,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021025",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510100600,
+        "EquipGroupId": 5101006,
+        "EquipType": 101,
+        "Rarity": 5,
+        "EquipSkillId": 52050003,
+        "FreePropertyIds": "71022013",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510100700,
+        "EquipGroupId": 5101007,
+        "EquipType": 101,
+        "Rarity": 5,
+        "EquipSkillId": 52020003,
+        "FreePropertyIds": "71031017",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1620,
+        "SaleItemQty": 3,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510100800,
+        "EquipGroupId": 5101008,
+        "EquipType": 101,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71072012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510100900,
+        "EquipGroupId": 5101009,
+        "EquipType": 101,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021025",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510101000,
+        "EquipGroupId": 5101010,
+        "EquipType": 101,
+        "Rarity": 5,
+        "EquipSkillId": 52010003,
+        "FreePropertyIds": "71082012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510101100,
+        "EquipGroupId": 5101011,
+        "EquipType": 101,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71031018",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510101200,
+        "EquipGroupId": 5101012,
+        "EquipType": 101,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71031018",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510101300,
+        "EquipGroupId": 5101013,
+        "EquipType": 101,
+        "Rarity": 5,
+        "EquipSkillId": 52020003,
+        "FreePropertyIds": "71021025",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510101400,
+        "EquipGroupId": 5101014,
+        "EquipType": 101,
+        "Rarity": 5,
+        "EquipSkillId": 52010005,
+        "FreePropertyIds": "71012015",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1620,
+        "SaleItemQty": 3,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510101500,
+        "EquipGroupId": 5101015,
+        "EquipType": 101,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71022015",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510101600,
+        "EquipGroupId": 5101016,
+        "EquipType": 101,
+        "Rarity": 5,
+        "EquipSkillId": 52010003,
+        "FreePropertyIds": "71052012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510200100,
+        "EquipGroupId": 5102001,
+        "EquipType": 102,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71082012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510200200,
+        "EquipGroupId": 5102002,
+        "EquipType": 102,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71072012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510200300,
+        "EquipGroupId": 5102003,
+        "EquipType": 102,
+        "Rarity": 5,
+        "EquipSkillId": 52030003,
+        "FreePropertyIds": "71061012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510200400,
+        "EquipGroupId": 5102004,
+        "EquipType": 102,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71031018",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510200500,
+        "EquipGroupId": 5102005,
+        "EquipType": 102,
+        "Rarity": 5,
+        "EquipSkillId": 52050003,
+        "FreePropertyIds": "71061009",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510200600,
+        "EquipGroupId": 5102006,
+        "EquipType": 102,
+        "Rarity": 5,
+        "EquipSkillId": 52010003,
+        "FreePropertyIds": "71082013",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1620,
+        "SaleItemQty": 3,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510200700,
+        "EquipGroupId": 5102007,
+        "EquipType": 102,
+        "Rarity": 5,
+        "EquipSkillId": 52010003,
+        "FreePropertyIds": "71012015",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510200800,
+        "EquipGroupId": 5102008,
+        "EquipType": 102,
+        "Rarity": 5,
+        "EquipSkillId": 52050003,
+        "FreePropertyIds": "71021025",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510200900,
+        "EquipGroupId": 5102009,
+        "EquipType": 102,
+        "Rarity": 5,
+        "EquipSkillId": 52020003,
+        "FreePropertyIds": "71031018",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510201000,
+        "EquipGroupId": 5102010,
+        "EquipType": 102,
+        "Rarity": 5,
+        "EquipSkillId": 52030003,
+        "FreePropertyIds": "71021025",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510201100,
+        "EquipGroupId": 5102011,
+        "EquipType": 102,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71012015",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510201200,
+        "EquipGroupId": 5102012,
+        "EquipType": 102,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021025",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510201300,
+        "EquipGroupId": 5102013,
+        "EquipType": 102,
+        "Rarity": 5,
+        "EquipSkillId": 52050005,
+        "FreePropertyIds": "71052012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1620,
+        "SaleItemQty": 3,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510201400,
+        "EquipGroupId": 5102014,
+        "EquipType": 102,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71052012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510201500,
+        "EquipGroupId": 5102015,
+        "EquipType": 102,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021025",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510201600,
+        "EquipGroupId": 5102016,
+        "EquipType": 102,
+        "Rarity": 5,
+        "EquipSkillId": 52010003,
+        "FreePropertyIds": "71021025",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510201700,
+        "EquipGroupId": 5102017,
+        "EquipType": 102,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71022015",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 510201800,
+        "EquipGroupId": 5102018,
+        "EquipType": 102,
+        "Rarity": 5,
+        "EquipSkillId": 52010003,
+        "FreePropertyIds": "71082012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511100100,
+        "EquipGroupId": 5111001,
+        "EquipType": 111,
+        "Rarity": 5,
+        "EquipSkillId": 52020003,
+        "FreePropertyIds": "71061012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511100200,
+        "EquipGroupId": 5111002,
+        "EquipType": 111,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71061012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511100300,
+        "EquipGroupId": 5111003,
+        "EquipType": 111,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71072012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511100400,
+        "EquipGroupId": 5111004,
+        "EquipType": 111,
+        "Rarity": 5,
+        "EquipSkillId": 52040003,
+        "FreePropertyIds": "71032012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1620,
+        "SaleItemQty": 3,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511100500,
+        "EquipGroupId": 5111005,
+        "EquipType": 111,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021020",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511100600,
+        "EquipGroupId": 5111006,
+        "EquipType": 111,
+        "Rarity": 5,
+        "EquipSkillId": 52030003,
+        "FreePropertyIds": "71021025",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511100700,
+        "EquipGroupId": 5111007,
+        "EquipType": 111,
+        "Rarity": 5,
+        "EquipSkillId": 52040003,
+        "FreePropertyIds": "71072012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511100800,
+        "EquipGroupId": 5111008,
+        "EquipType": 111,
+        "Rarity": 5,
+        "EquipSkillId": 52020003,
+        "FreePropertyIds": "71082012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511100900,
+        "EquipGroupId": 5111009,
+        "EquipType": 111,
+        "Rarity": 5,
+        "EquipSkillId": 52030003,
+        "FreePropertyIds": "71082012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511101000,
+        "EquipGroupId": 5111010,
+        "EquipType": 111,
+        "Rarity": 5,
+        "EquipSkillId": 52020003,
+        "FreePropertyIds": "71031018",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511101100,
+        "EquipGroupId": 5111011,
+        "EquipType": 111,
+        "Rarity": 5,
+        "EquipSkillId": 52040003,
+        "FreePropertyIds": "71052012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511101200,
+        "EquipGroupId": 5111012,
+        "EquipType": 111,
+        "Rarity": 5,
+        "EquipSkillId": 52010003,
+        "FreePropertyIds": "71072012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511101300,
+        "EquipGroupId": 5111013,
+        "EquipType": 111,
+        "Rarity": 5,
+        "EquipSkillId": 52030005,
+        "FreePropertyIds": "71022015",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1620,
+        "SaleItemQty": 3,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511101400,
+        "EquipGroupId": 5111014,
+        "EquipType": 111,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71072012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511101500,
+        "EquipGroupId": 5111015,
+        "EquipType": 111,
+        "Rarity": 5,
+        "EquipSkillId": 52040003,
+        "FreePropertyIds": "71021025",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511200100,
+        "EquipGroupId": 5112001,
+        "EquipType": 112,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71052012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511200200,
+        "EquipGroupId": 5112002,
+        "EquipType": 112,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71061012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511200300,
+        "EquipGroupId": 5112003,
+        "EquipType": 112,
+        "Rarity": 5,
+        "EquipSkillId": 52050003,
+        "FreePropertyIds": "71021025",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511200400,
+        "EquipGroupId": 5112004,
+        "EquipType": 112,
+        "Rarity": 5,
+        "EquipSkillId": 52050003,
+        "FreePropertyIds": "71021025",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511200500,
+        "EquipGroupId": 5112005,
+        "EquipType": 112,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71072012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511200600,
+        "EquipGroupId": 5112006,
+        "EquipType": 112,
+        "Rarity": 5,
+        "EquipSkillId": 52010003,
+        "FreePropertyIds": "71032012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1620,
+        "SaleItemQty": 3,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511200700,
+        "EquipGroupId": 5112007,
+        "EquipType": 112,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71052014",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511200800,
+        "EquipGroupId": 5112008,
+        "EquipType": 112,
+        "Rarity": 5,
+        "EquipSkillId": 52050003,
+        "FreePropertyIds": "71072012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511200900,
+        "EquipGroupId": 5112009,
+        "EquipType": 112,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021025",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511201000,
+        "EquipGroupId": 5112010,
+        "EquipType": 112,
+        "Rarity": 5,
+        "EquipSkillId": 52010003,
+        "FreePropertyIds": "71072012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511201100,
+        "EquipGroupId": 5112011,
+        "EquipType": 112,
+        "Rarity": 5,
+        "EquipSkillId": 52050003,
+        "FreePropertyIds": "71061012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511201200,
+        "EquipGroupId": 5112012,
+        "EquipType": 112,
+        "Rarity": 5,
+        "EquipSkillId": 52040005,
+        "FreePropertyIds": "71092012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1620,
+        "SaleItemQty": 3,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511201300,
+        "EquipGroupId": 5112013,
+        "EquipType": 112,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71072012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511201400,
+        "EquipGroupId": 5112014,
+        "EquipType": 112,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71092012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511201500,
+        "EquipGroupId": 5112015,
+        "EquipType": 112,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71072012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1620,
+        "SaleItemQty": 3,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511201600,
+        "EquipGroupId": 5112016,
+        "EquipType": 112,
+        "Rarity": 5,
+        "EquipSkillId": 52040003,
+        "FreePropertyIds": "71061012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511300100,
+        "EquipGroupId": 5113001,
+        "EquipType": 113,
+        "Rarity": 5,
+        "EquipSkillId": 52040003,
+        "FreePropertyIds": "71031018",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511300200,
+        "EquipGroupId": 5113002,
+        "EquipType": 113,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71072012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511300300,
+        "EquipGroupId": 5113003,
+        "EquipType": 113,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71052012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511300400,
+        "EquipGroupId": 5113004,
+        "EquipType": 113,
+        "Rarity": 5,
+        "EquipSkillId": 52040003,
+        "FreePropertyIds": "71082012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511300500,
+        "EquipGroupId": 5113005,
+        "EquipType": 113,
+        "Rarity": 5,
+        "EquipSkillId": 52040003,
+        "FreePropertyIds": "71011023",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1620,
+        "SaleItemQty": 3,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511300600,
+        "EquipGroupId": 5113006,
+        "EquipType": 113,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71052012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511300700,
+        "EquipGroupId": 5113007,
+        "EquipType": 113,
+        "Rarity": 5,
+        "EquipSkillId": 52040003,
+        "FreePropertyIds": "71021025",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511300800,
+        "EquipGroupId": 5113008,
+        "EquipType": 113,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71061012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511300900,
+        "EquipGroupId": 5113009,
+        "EquipType": 113,
+        "Rarity": 5,
+        "EquipSkillId": 52020005,
+        "FreePropertyIds": "71072012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1620,
+        "SaleItemQty": 3,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 511301000,
+        "EquipGroupId": 5113010,
+        "EquipType": 113,
+        "Rarity": 5,
+        "EquipSkillId": 52020003,
+        "FreePropertyIds": "71022013",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 520100100,
+        "EquipGroupId": 5201001,
+        "EquipType": 201,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71011025",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 520100200,
+        "EquipGroupId": 5201002,
+        "EquipType": 201,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71061012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 520100300,
+        "EquipGroupId": 5201003,
+        "EquipType": 201,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71031018",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 520100400,
+        "EquipGroupId": 5201004,
+        "EquipType": 201,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71092012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 520100500,
+        "EquipGroupId": 5201005,
+        "EquipType": 201,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71031018",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 520100600,
+        "EquipGroupId": 5201006,
+        "EquipType": 201,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71052012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 520100700,
+        "EquipGroupId": 5201007,
+        "EquipType": 201,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71072009",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 1620,
+        "SaleItemQty": 3,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 520100800,
+        "EquipGroupId": 5201008,
+        "EquipType": 201,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71021025",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 520100900,
+        "EquipGroupId": 5201009,
+        "EquipType": 201,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71012015",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 520101000,
+        "EquipGroupId": 5201010,
+        "EquipType": 201,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71072012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 520101100,
+        "EquipGroupId": 5201011,
+        "EquipType": 201,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71052012",
+        "FreePropertySlotCount": 3,
+        "BaseSalePrice": 1620,
+        "SaleItemQty": 3,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 520101200,
+        "EquipGroupId": 5201012,
+        "EquipType": 201,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71052012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 520101300,
+        "EquipGroupId": 5201013,
+        "EquipType": 201,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71072012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 520101400,
+        "EquipGroupId": 5201014,
+        "EquipType": 201,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "71052012",
+        "FreePropertySlotCount": 2,
+        "BaseSalePrice": 3240,
+        "SaleItemQty": 6,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 530100100,
+        "EquipGroupId": 5301001,
+        "EquipType": 301,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "",
+        "FreePropertySlotCount": 0,
+        "BaseSalePrice": 405,
+        "SaleItemQty": 0,
+        "IsDeleted": false
+      },
+      {
+        "EquipId": 530200100,
+        "EquipGroupId": 5302001,
+        "EquipType": 302,
+        "Rarity": 5,
+        "EquipSkillId": 0,
+        "FreePropertyIds": "",
+        "FreePropertySlotCount": 0,
+        "BaseSalePrice": 45,
+        "SaleItemQty": 30,
+        "IsDeleted": false
+      }
+    ],
+    "EquipSkillMaster": [
+      {
+        "EquipSkillId": 51010001,
+        "EquipSkillType": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 51010002,
+        "EquipSkillType": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 51010003,
+        "EquipSkillType": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 51010004,
+        "EquipSkillType": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 51010005,
+        "EquipSkillType": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 51020001,
+        "EquipSkillType": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 51020002,
+        "EquipSkillType": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 51020003,
+        "EquipSkillType": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 51020004,
+        "EquipSkillType": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 51020005,
+        "EquipSkillType": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 51030001,
+        "EquipSkillType": 3,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 51030002,
+        "EquipSkillType": 3,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 51030003,
+        "EquipSkillType": 3,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 51030004,
+        "EquipSkillType": 3,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 51030005,
+        "EquipSkillType": 3,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 51040001,
+        "EquipSkillType": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 51040002,
+        "EquipSkillType": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 51040003,
+        "EquipSkillType": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 51040004,
+        "EquipSkillType": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 51040005,
+        "EquipSkillType": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 51050001,
+        "EquipSkillType": 5,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 51050002,
+        "EquipSkillType": 5,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 51050003,
+        "EquipSkillType": 5,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 51050004,
+        "EquipSkillType": 5,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 51050005,
+        "EquipSkillType": 5,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 52010001,
+        "EquipSkillType": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 52010002,
+        "EquipSkillType": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 52010003,
+        "EquipSkillType": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 52010005,
+        "EquipSkillType": 1,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 52020001,
+        "EquipSkillType": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 52020002,
+        "EquipSkillType": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 52020003,
+        "EquipSkillType": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 52020005,
+        "EquipSkillType": 2,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 52030001,
+        "EquipSkillType": 3,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 52030002,
+        "EquipSkillType": 3,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 52030003,
+        "EquipSkillType": 3,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 52030005,
+        "EquipSkillType": 3,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 52040001,
+        "EquipSkillType": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 52040002,
+        "EquipSkillType": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 52040003,
+        "EquipSkillType": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 52040005,
+        "EquipSkillType": 4,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 52050001,
+        "EquipSkillType": 5,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 52050002,
+        "EquipSkillType": 5,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 52050003,
+        "EquipSkillType": 5,
+        "IsDeleted": false
+      },
+      {
+        "EquipSkillId": 52050005,
+        "EquipSkillType": 5,
+        "IsDeleted": false
+      }
+    ],
+    "ItemConsumeMaster": [
+      {
+        "ItemId": 10001,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 20001,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 30001,
+        "Rarity": 1,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 30002,
+        "Rarity": 1,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 30004,
+        "Rarity": 1,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 30005,
+        "Rarity": 1,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 30006,
+        "Rarity": 1,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 30007,
+        "Rarity": 1,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 30008,
+        "Rarity": 1,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 30009,
+        "Rarity": 1,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 30010,
+        "Rarity": 1,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 30011,
+        "Rarity": 1,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 30012,
+        "Rarity": 1,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 30013,
+        "Rarity": 1,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40001,
+        "Rarity": 2,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40002,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40003,
+        "Rarity": 2,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40004,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40005,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40006,
+        "Rarity": 2,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40007,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40008,
+        "Rarity": 2,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40009,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40010,
+        "Rarity": 2,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40011,
+        "Rarity": 2,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40012,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40013,
+        "Rarity": 2,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40014,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40015,
+        "Rarity": 2,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40016,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40017,
+        "Rarity": 2,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40018,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40019,
+        "Rarity": 2,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40020,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40021,
+        "Rarity": 2,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40022,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40023,
+        "Rarity": 2,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40024,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40025,
+        "Rarity": 2,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40026,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40027,
+        "Rarity": 2,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40028,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40029,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 50001,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 50002,
+        "Rarity": 4,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 50003,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 50004,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 50007,
+        "Rarity": 4,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 50008,
+        "Rarity": 4,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 50009,
+        "Rarity": 4,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 50010,
+        "Rarity": 4,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 50011,
+        "Rarity": 4,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 60001,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 70001,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 80001,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 80002,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 80003,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 80004,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 80005,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 80006,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 80007,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 80008,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 80009,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 80010,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 80011,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 80012,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 80013,
+        "Rarity": 5,
+        "IsDeleted": false
+      }
+    ],
+    "ItemEnhanceMaster": [
+      {
+        "ItemId": 10001,
+        "Rarity": 1,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 10002,
+        "Rarity": 2,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 10003,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 10004,
+        "Rarity": 4,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 20001,
+        "Rarity": 4,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 20002,
+        "Rarity": 1,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 20003,
+        "Rarity": 2,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 20004,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 20005,
+        "Rarity": 4,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 20006,
+        "Rarity": 1,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 20007,
+        "Rarity": 2,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 20008,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 30001,
+        "Rarity": 1,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 30002,
+        "Rarity": 2,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 30003,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 30004,
+        "Rarity": 1,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 30005,
+        "Rarity": 2,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 30006,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 30007,
+        "Rarity": 1,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 30008,
+        "Rarity": 2,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 30009,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 30010,
+        "Rarity": 1,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 30011,
+        "Rarity": 2,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 30012,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 30013,
+        "Rarity": 1,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 30014,
+        "Rarity": 2,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 30015,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40001,
+        "Rarity": 1,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40002,
+        "Rarity": 2,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40003,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40004,
+        "Rarity": 1,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40005,
+        "Rarity": 2,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40006,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40007,
+        "Rarity": 1,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40008,
+        "Rarity": 2,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40009,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40010,
+        "Rarity": 1,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40011,
+        "Rarity": 2,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40012,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40013,
+        "Rarity": 1,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40014,
+        "Rarity": 2,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40015,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40016,
+        "Rarity": 1,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40017,
+        "Rarity": 2,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 40018,
+        "Rarity": 3,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 50001,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 50002,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 50003,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 50004,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 50005,
+        "Rarity": 5,
+        "IsDeleted": false
+      },
+      {
+        "ItemId": 50006,
+        "Rarity": 5,
+        "IsDeleted": false
+      }
+    ],
+    "TitleMaster": [
+      {
+        "TitleId": 110100001,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 110100002,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 110100003,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 110100101,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 110100102,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 110100103,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 110100104,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 110100105,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 110100106,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 110100107,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 110100108,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 110100109,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 110100110,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 110100111,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 110100112,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 110300001,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 110300002,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 110300003,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 120700001,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 120700002,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 120700003,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 121100001,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 121100002,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 121100003,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 130800001,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 130800002,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 130800003,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 140900001,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 140900002,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 140900003,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 190090001,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210500101,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210500102,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210500103,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210500201,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210500202,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210500203,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210500301,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210500302,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210500303,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210500401,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210500402,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210500403,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210500501,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210500502,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210500503,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210500601,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210500602,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210500603,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210500701,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210500702,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210500703,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210500801,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210500802,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210500803,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210500901,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210500902,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210500903,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501001,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501002,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501003,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501101,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501102,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501103,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501201,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501202,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501203,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501301,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501302,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501303,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501401,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501402,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501403,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501501,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501502,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501503,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501601,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501602,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501603,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501701,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501702,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501703,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501801,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501802,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501803,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501901,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501902,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210501903,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210600101,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210600201,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210600301,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210600401,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 210600501,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 310110101,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330010101,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330010102,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330010103,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020101,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020102,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020103,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020104,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020105,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020106,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020107,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020108,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020109,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020201,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020202,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020203,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020204,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020205,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020206,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020301,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020302,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020303,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020304,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020305,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020306,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020307,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020308,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020401,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020402,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020403,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020404,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020405,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020406,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020407,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020408,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020501,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020502,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020503,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020504,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020505,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020506,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020507,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020508,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020601,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020602,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020603,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020604,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020605,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020606,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 330020607,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390110101,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390110201,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390110202,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390110301,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390110302,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390110401,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390110402,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390110403,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390110404,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390110405,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390110406,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390110407,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390110408,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390110409,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390110410,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390110601,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390110602,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390110603,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390110701,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390110702,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390110801,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390110802,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390110803,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390110901,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390110902,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390111101,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390111102,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390111103,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390130301,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390130302,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390130303,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390130304,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390130305,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390200101,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390200102,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390200201,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390200202,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390200301,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390200401,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390200501,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390200601,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390200602,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390200701,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390200801,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390200901,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390201001,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390300101,
+        "IsDeleted": false
+      },
+      {
+        "TitleId": 390300201,
+        "IsDeleted": false
+      }
+    ]
+  }
+}

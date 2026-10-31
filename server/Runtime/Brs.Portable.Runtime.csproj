@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Game/Brs.Portable.Game.csproj" />
+    <ProjectReference Include="../Management/Brs.Portable.Management.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Defaults/rules/*.json" LogicalName="Brs.Portable.Runtime.Defaults.rules.%(Filename)%(Extension)" />
+    <EmbeddedResource Include="Defaults/bootstrap/*.json" LogicalName="Brs.Portable.Runtime.Defaults.bootstrap.%(Filename)%(Extension)" />
+    <EmbeddedResource Include="runtime-input-manifest.json" LogicalName="Brs.Portable.Runtime.InputManifest.json" />
+  </ItemGroup>
+</Project>

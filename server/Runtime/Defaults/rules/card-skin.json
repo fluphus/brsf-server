@@ -1,0 +1,1210 @@
+{
+  "policy_version": "original-owned-card-skin-selection-v1",
+  "source_master_sha256": "8082ce3e3746a8e38d58c7e640892b80caef374f767a1d39f84db94d7108945b",
+  "source_mapping_sha256": "eec9ad168fcf9f3bef97e2a2fd799b4d6e8a59b044db3b30bf928c62f2c2f7a4",
+  "authorization_policy": "owned-card-default-implicit-nondefault-owned-no-awakening-grant",
+  "cards": [
+    {
+      "card_id": 30010002,
+      "default_skin_id": 300100021,
+      "is_deleted": false
+    },
+    {
+      "card_id": 30010003,
+      "default_skin_id": 300100031,
+      "is_deleted": false
+    },
+    {
+      "card_id": 30010004,
+      "default_skin_id": 300100041,
+      "is_deleted": false
+    },
+    {
+      "card_id": 40060015,
+      "default_skin_id": 400600151,
+      "is_deleted": false
+    },
+    {
+      "card_id": 40080014,
+      "default_skin_id": 400800141,
+      "is_deleted": false
+    },
+    {
+      "card_id": 40110011,
+      "default_skin_id": 401100111,
+      "is_deleted": false
+    },
+    {
+      "card_id": 40120010,
+      "default_skin_id": 401200101,
+      "is_deleted": false
+    },
+    {
+      "card_id": 40170006,
+      "default_skin_id": 401700061,
+      "is_deleted": false
+    },
+    {
+      "card_id": 40210213,
+      "default_skin_id": 402102131,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010001,
+      "default_skin_id": 500100011,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010002,
+      "default_skin_id": 500100021,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010003,
+      "default_skin_id": 500100031,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010004,
+      "default_skin_id": 500100041,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010005,
+      "default_skin_id": 500100051,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010006,
+      "default_skin_id": 500100061,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010007,
+      "default_skin_id": 500100071,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010008,
+      "default_skin_id": 500100081,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010009,
+      "default_skin_id": 500100091,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010010,
+      "default_skin_id": 500100101,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010011,
+      "default_skin_id": 500100111,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010012,
+      "default_skin_id": 500100121,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010013,
+      "default_skin_id": 500100131,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010014,
+      "default_skin_id": 500100141,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010015,
+      "default_skin_id": 500100151,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010016,
+      "default_skin_id": 500100161,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010017,
+      "default_skin_id": 500100171,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010018,
+      "default_skin_id": 500100181,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010019,
+      "default_skin_id": 500100191,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50011001,
+      "default_skin_id": 500110011,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50012001,
+      "default_skin_id": 500120011,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50020005,
+      "default_skin_id": 500200051,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50020006,
+      "default_skin_id": 500200061,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50020007,
+      "default_skin_id": 500200071,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50020008,
+      "default_skin_id": 500200081,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50030201,
+      "default_skin_id": 500302011,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50030202,
+      "default_skin_id": 500302021,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50030203,
+      "default_skin_id": 500302031,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50040001,
+      "default_skin_id": 500400011,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50040002,
+      "default_skin_id": 500400021,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50040003,
+      "default_skin_id": 500400031,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50040004,
+      "default_skin_id": 500400041,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50050012,
+      "default_skin_id": 500500121,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50050013,
+      "default_skin_id": 500500131,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50050014,
+      "default_skin_id": 500500141,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50060002,
+      "default_skin_id": 500600021,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50060003,
+      "default_skin_id": 500600031,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50070009,
+      "default_skin_id": 500700091,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50070010,
+      "default_skin_id": 500700101,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50070011,
+      "default_skin_id": 500700111,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50080006,
+      "default_skin_id": 500800061,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50080018,
+      "default_skin_id": 500800181,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50090015,
+      "default_skin_id": 500900151,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50090016,
+      "default_skin_id": 500900161,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50090017,
+      "default_skin_id": 500900171,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50090018,
+      "default_skin_id": 500900181,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50100204,
+      "default_skin_id": 501002041,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50100205,
+      "default_skin_id": 501002051,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50100206,
+      "default_skin_id": 501002061,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50100207,
+      "default_skin_id": 501002071,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50110001,
+      "default_skin_id": 501100011,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50110008,
+      "default_skin_id": 501100081,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50120001,
+      "default_skin_id": 501200011,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50120004,
+      "default_skin_id": 501200041,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50120016,
+      "default_skin_id": 501200161,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50130006,
+      "default_skin_id": 501300061,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50130007,
+      "default_skin_id": 501300071,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50160016,
+      "default_skin_id": 501600161,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50170001,
+      "default_skin_id": 501700011,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50170007,
+      "default_skin_id": 501700071,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50170013,
+      "default_skin_id": 501700131,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50190001,
+      "default_skin_id": 501900011,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50200208,
+      "default_skin_id": 502002081,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50200209,
+      "default_skin_id": 502002091,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50200210,
+      "default_skin_id": 502002101,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50210026,
+      "default_skin_id": 502100261,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50210212,
+      "default_skin_id": 502102121,
+      "is_deleted": false
+    }
+  ],
+  "skins": [
+    {
+      "skin_id": 300100021,
+      "card_id": 30010002,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 300100031,
+      "card_id": 30010003,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 300100041,
+      "card_id": 30010004,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 400600151,
+      "card_id": 40060015,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 400800141,
+      "card_id": 40080014,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 401100111,
+      "card_id": 40110011,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 401200101,
+      "card_id": 40120010,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 401700061,
+      "card_id": 40170006,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 401700063,
+      "card_id": 40170006,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 402102131,
+      "card_id": 40210213,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100011,
+      "card_id": 50010001,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100012,
+      "card_id": 50010001,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100013,
+      "card_id": 50010001,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100021,
+      "card_id": 50010002,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100022,
+      "card_id": 50010002,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100031,
+      "card_id": 50010003,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100032,
+      "card_id": 50010003,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100041,
+      "card_id": 50010004,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100042,
+      "card_id": 50010004,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100051,
+      "card_id": 50010005,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100052,
+      "card_id": 50010005,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100061,
+      "card_id": 50010006,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100062,
+      "card_id": 50010006,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100071,
+      "card_id": 50010007,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100072,
+      "card_id": 50010007,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100081,
+      "card_id": 50010008,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100082,
+      "card_id": 50010008,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100083,
+      "card_id": 50010008,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100084,
+      "card_id": 50010008,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100091,
+      "card_id": 50010009,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100092,
+      "card_id": 50010009,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100093,
+      "card_id": 50010009,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100094,
+      "card_id": 50010009,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100101,
+      "card_id": 50010010,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100102,
+      "card_id": 50010010,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100111,
+      "card_id": 50010011,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100112,
+      "card_id": 50010011,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100121,
+      "card_id": 50010012,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100122,
+      "card_id": 50010012,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100123,
+      "card_id": 50010012,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100124,
+      "card_id": 50010012,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100131,
+      "card_id": 50010013,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100132,
+      "card_id": 50010013,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100133,
+      "card_id": 50010013,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100134,
+      "card_id": 50010013,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100141,
+      "card_id": 50010014,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100142,
+      "card_id": 50010014,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100143,
+      "card_id": 50010014,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100144,
+      "card_id": 50010014,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100151,
+      "card_id": 50010015,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100152,
+      "card_id": 50010015,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100153,
+      "card_id": 50010015,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100154,
+      "card_id": 50010015,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100161,
+      "card_id": 50010016,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100162,
+      "card_id": 50010016,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100171,
+      "card_id": 50010017,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100172,
+      "card_id": 50010017,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100173,
+      "card_id": 50010017,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100174,
+      "card_id": 50010017,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100181,
+      "card_id": 50010018,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100182,
+      "card_id": 50010018,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100191,
+      "card_id": 50010019,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500100192,
+      "card_id": 50010019,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500110011,
+      "card_id": 50011001,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500110012,
+      "card_id": 50011001,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500120011,
+      "card_id": 50012001,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500120012,
+      "card_id": 50012001,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500120013,
+      "card_id": 50012001,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500120014,
+      "card_id": 50012001,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500200051,
+      "card_id": 50020005,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500200052,
+      "card_id": 50020005,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500200061,
+      "card_id": 50020006,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500200062,
+      "card_id": 50020006,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500200071,
+      "card_id": 50020007,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500200072,
+      "card_id": 50020007,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500200081,
+      "card_id": 50020008,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500200082,
+      "card_id": 50020008,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500302011,
+      "card_id": 50030201,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500302012,
+      "card_id": 50030201,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500302021,
+      "card_id": 50030202,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500302022,
+      "card_id": 50030202,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500302031,
+      "card_id": 50030203,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500302032,
+      "card_id": 50030203,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500400011,
+      "card_id": 50040001,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500400012,
+      "card_id": 50040001,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500400021,
+      "card_id": 50040002,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500400022,
+      "card_id": 50040002,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500400031,
+      "card_id": 50040003,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500400032,
+      "card_id": 50040003,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500400041,
+      "card_id": 50040004,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500400042,
+      "card_id": 50040004,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500500121,
+      "card_id": 50050012,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500500122,
+      "card_id": 50050012,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500500131,
+      "card_id": 50050013,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500500132,
+      "card_id": 50050013,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500500141,
+      "card_id": 50050014,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500500142,
+      "card_id": 50050014,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500600021,
+      "card_id": 50060002,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500600022,
+      "card_id": 50060002,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500600031,
+      "card_id": 50060003,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500600032,
+      "card_id": 50060003,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500700091,
+      "card_id": 50070009,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500700092,
+      "card_id": 50070009,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500700101,
+      "card_id": 50070010,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500700102,
+      "card_id": 50070010,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500700111,
+      "card_id": 50070011,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500700112,
+      "card_id": 50070011,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500800061,
+      "card_id": 50080006,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500800062,
+      "card_id": 50080006,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500800181,
+      "card_id": 50080018,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500800182,
+      "card_id": 50080018,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500900151,
+      "card_id": 50090015,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500900152,
+      "card_id": 50090015,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500900161,
+      "card_id": 50090016,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500900162,
+      "card_id": 50090016,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500900171,
+      "card_id": 50090017,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500900172,
+      "card_id": 50090017,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500900181,
+      "card_id": 50090018,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 500900182,
+      "card_id": 50090018,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501002041,
+      "card_id": 50100204,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501002042,
+      "card_id": 50100204,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501002051,
+      "card_id": 50100205,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501002052,
+      "card_id": 50100205,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501002061,
+      "card_id": 50100206,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501002062,
+      "card_id": 50100206,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501002071,
+      "card_id": 50100207,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501002072,
+      "card_id": 50100207,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501100011,
+      "card_id": 50110001,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501100012,
+      "card_id": 50110001,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501100081,
+      "card_id": 50110008,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501100082,
+      "card_id": 50110008,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501200011,
+      "card_id": 50120001,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501200012,
+      "card_id": 50120001,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501200041,
+      "card_id": 50120004,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501200042,
+      "card_id": 50120004,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501200161,
+      "card_id": 50120016,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501200162,
+      "card_id": 50120016,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501300061,
+      "card_id": 50130006,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501300062,
+      "card_id": 50130006,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501300071,
+      "card_id": 50130007,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501300072,
+      "card_id": 50130007,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501600161,
+      "card_id": 50160016,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501600162,
+      "card_id": 50160016,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501700011,
+      "card_id": 50170001,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501700012,
+      "card_id": 50170001,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501700013,
+      "card_id": 50170001,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501700071,
+      "card_id": 50170007,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501700072,
+      "card_id": 50170007,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501700073,
+      "card_id": 50170007,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501700131,
+      "card_id": 50170013,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501700132,
+      "card_id": 50170013,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501700133,
+      "card_id": 50170013,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501900011,
+      "card_id": 50190001,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 501900012,
+      "card_id": 50190001,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 502002081,
+      "card_id": 50200208,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 502002082,
+      "card_id": 50200208,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 502002091,
+      "card_id": 50200209,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 502002092,
+      "card_id": 50200209,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 502002101,
+      "card_id": 50200210,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 502002102,
+      "card_id": 50200210,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 502100261,
+      "card_id": 50210026,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 502100262,
+      "card_id": 50210026,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 502102121,
+      "card_id": 50210212,
+      "is_deleted": false
+    },
+    {
+      "skin_id": 502102122,
+      "card_id": 50210212,
+      "is_deleted": false
+    }
+  ]
+}

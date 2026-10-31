@@ -1,0 +1,2179 @@
+{
+  "policy_version": "local-expedition-v1",
+  "source_master_sha256": "8082ce3e3746a8e38d58c7e640892b80caef374f767a1d39f84db94d7108945b",
+  "source_excerpt_sha256": "397b1c202cb028cb0696cbc91d9764147f275e0663055c5a43897d27678009c6",
+  "rarity9_policy": "one-original-row-guaranteed-per-run",
+  "normal_frames": 1,
+  "great_frames_policy": "original-bonus-total",
+  "exp_policy": "ordinary-current-cap-floor-great-rate-discard-overflow-no-mastery",
+  "skip_policy": "fixed-free-first-mark-due-result-only",
+  "restart_policy": "claimed-only-last-exact-roster",
+  "profile_count_policy": "claimed-runs",
+  "destinations": [
+    {
+      "expedition_id": 1000001,
+      "time": 7200,
+      "card_exp": 270,
+      "condition_quest_id": 0,
+      "expedition_drop_id": 1000001,
+      "skip_paid_coin": 80,
+      "event_id": 0,
+      "is_deleted": false
+    },
+    {
+      "expedition_id": 1000002,
+      "time": 14400,
+      "card_exp": 516,
+      "condition_quest_id": 0,
+      "expedition_drop_id": 1000002,
+      "skip_paid_coin": 160,
+      "event_id": 0,
+      "is_deleted": false
+    },
+    {
+      "expedition_id": 1000003,
+      "time": 28800,
+      "card_exp": 976,
+      "condition_quest_id": 0,
+      "expedition_drop_id": 1000003,
+      "skip_paid_coin": 320,
+      "event_id": 0,
+      "is_deleted": false
+    },
+    {
+      "expedition_id": 1000004,
+      "time": 7200,
+      "card_exp": 270,
+      "condition_quest_id": 10010212,
+      "expedition_drop_id": 1000004,
+      "skip_paid_coin": 80,
+      "event_id": 0,
+      "is_deleted": false
+    },
+    {
+      "expedition_id": 1000005,
+      "time": 14400,
+      "card_exp": 516,
+      "condition_quest_id": 10010212,
+      "expedition_drop_id": 1000005,
+      "skip_paid_coin": 160,
+      "event_id": 0,
+      "is_deleted": false
+    },
+    {
+      "expedition_id": 1000006,
+      "time": 28800,
+      "card_exp": 976,
+      "condition_quest_id": 10010212,
+      "expedition_drop_id": 1000006,
+      "skip_paid_coin": 320,
+      "event_id": 0,
+      "is_deleted": false
+    },
+    {
+      "expedition_id": 1000007,
+      "time": 14400,
+      "card_exp": 516,
+      "condition_quest_id": 10010312,
+      "expedition_drop_id": 1000007,
+      "skip_paid_coin": 160,
+      "event_id": 0,
+      "is_deleted": false
+    },
+    {
+      "expedition_id": 1000008,
+      "time": 7200,
+      "card_exp": 270,
+      "condition_quest_id": 10010413,
+      "expedition_drop_id": 1000008,
+      "skip_paid_coin": 80,
+      "event_id": 0,
+      "is_deleted": false
+    },
+    {
+      "expedition_id": 1000009,
+      "time": 14400,
+      "card_exp": 516,
+      "condition_quest_id": 10010413,
+      "expedition_drop_id": 1000009,
+      "skip_paid_coin": 160,
+      "event_id": 0,
+      "is_deleted": false
+    },
+    {
+      "expedition_id": 1000010,
+      "time": 28800,
+      "card_exp": 976,
+      "condition_quest_id": 10010413,
+      "expedition_drop_id": 1000010,
+      "skip_paid_coin": 320,
+      "event_id": 0,
+      "is_deleted": false
+    }
+  ],
+  "bonuses": [
+    {
+      "deck_card_count": 1,
+      "drop_frame": 2,
+      "success_rate": 1000,
+      "card_exp_rate": 120,
+      "is_deleted": false
+    },
+    {
+      "deck_card_count": 2,
+      "drop_frame": 3,
+      "success_rate": 2000,
+      "card_exp_rate": 120,
+      "is_deleted": false
+    },
+    {
+      "deck_card_count": 3,
+      "drop_frame": 4,
+      "success_rate": 3000,
+      "card_exp_rate": 120,
+      "is_deleted": false
+    }
+  ],
+  "drops": [
+    {
+      "id": 1,
+      "expedition_drop_id": 1000001,
+      "rarity": 9,
+      "weight": 1,
+      "item_type": 6,
+      "item_id": 80011,
+      "item_qty": 20,
+      "is_deleted": false
+    },
+    {
+      "id": 2,
+      "expedition_drop_id": 1000001,
+      "rarity": 3,
+      "weight": 250,
+      "item_type": 12,
+      "item_id": 40001,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 3,
+      "expedition_drop_id": 1000001,
+      "rarity": 3,
+      "weight": 250,
+      "item_type": 12,
+      "item_id": 40004,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 4,
+      "expedition_drop_id": 1000001,
+      "rarity": 3,
+      "weight": 250,
+      "item_type": 12,
+      "item_id": 40007,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 5,
+      "expedition_drop_id": 1000001,
+      "rarity": 3,
+      "weight": 250,
+      "item_type": 12,
+      "item_id": 40010,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 6,
+      "expedition_drop_id": 1000001,
+      "rarity": 3,
+      "weight": 250,
+      "item_type": 12,
+      "item_id": 40013,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 7,
+      "expedition_drop_id": 1000001,
+      "rarity": 3,
+      "weight": 250,
+      "item_type": 12,
+      "item_id": 40016,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 8,
+      "expedition_drop_id": 1000001,
+      "rarity": 3,
+      "weight": 750,
+      "item_type": 12,
+      "item_id": 40002,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 9,
+      "expedition_drop_id": 1000001,
+      "rarity": 3,
+      "weight": 750,
+      "item_type": 12,
+      "item_id": 40005,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 10,
+      "expedition_drop_id": 1000001,
+      "rarity": 3,
+      "weight": 750,
+      "item_type": 12,
+      "item_id": 40008,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 11,
+      "expedition_drop_id": 1000001,
+      "rarity": 3,
+      "weight": 750,
+      "item_type": 12,
+      "item_id": 40011,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 12,
+      "expedition_drop_id": 1000001,
+      "rarity": 3,
+      "weight": 750,
+      "item_type": 12,
+      "item_id": 40014,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 13,
+      "expedition_drop_id": 1000001,
+      "rarity": 3,
+      "weight": 750,
+      "item_type": 12,
+      "item_id": 40017,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 14,
+      "expedition_drop_id": 1000001,
+      "rarity": 2,
+      "weight": 1000,
+      "item_type": 12,
+      "item_id": 40001,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 15,
+      "expedition_drop_id": 1000001,
+      "rarity": 2,
+      "weight": 1000,
+      "item_type": 12,
+      "item_id": 40004,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 16,
+      "expedition_drop_id": 1000001,
+      "rarity": 2,
+      "weight": 1000,
+      "item_type": 12,
+      "item_id": 40007,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 17,
+      "expedition_drop_id": 1000001,
+      "rarity": 2,
+      "weight": 1000,
+      "item_type": 12,
+      "item_id": 40010,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 18,
+      "expedition_drop_id": 1000001,
+      "rarity": 2,
+      "weight": 1000,
+      "item_type": 12,
+      "item_id": 40013,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 19,
+      "expedition_drop_id": 1000001,
+      "rarity": 2,
+      "weight": 1000,
+      "item_type": 12,
+      "item_id": 40016,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 20,
+      "expedition_drop_id": 1000001,
+      "rarity": 1,
+      "weight": 200,
+      "item_type": 7,
+      "item_id": 130100100,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 21,
+      "expedition_drop_id": 1000001,
+      "rarity": 1,
+      "weight": 75,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 2120,
+      "is_deleted": false
+    },
+    {
+      "id": 22,
+      "expedition_drop_id": 1000001,
+      "rarity": 1,
+      "weight": 250,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 1520,
+      "is_deleted": false
+    },
+    {
+      "id": 23,
+      "expedition_drop_id": 1000001,
+      "rarity": 1,
+      "weight": 475,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 1060,
+      "is_deleted": false
+    },
+    {
+      "id": 26,
+      "expedition_drop_id": 1000002,
+      "rarity": 9,
+      "weight": 1,
+      "item_type": 6,
+      "item_id": 80011,
+      "item_qty": 40,
+      "is_deleted": false
+    },
+    {
+      "id": 27,
+      "expedition_drop_id": 1000002,
+      "rarity": 3,
+      "weight": 800,
+      "item_type": 12,
+      "item_id": 40002,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 28,
+      "expedition_drop_id": 1000002,
+      "rarity": 3,
+      "weight": 800,
+      "item_type": 12,
+      "item_id": 40005,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 29,
+      "expedition_drop_id": 1000002,
+      "rarity": 3,
+      "weight": 800,
+      "item_type": 12,
+      "item_id": 40008,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 30,
+      "expedition_drop_id": 1000002,
+      "rarity": 3,
+      "weight": 800,
+      "item_type": 12,
+      "item_id": 40011,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 31,
+      "expedition_drop_id": 1000002,
+      "rarity": 3,
+      "weight": 800,
+      "item_type": 12,
+      "item_id": 40014,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 32,
+      "expedition_drop_id": 1000002,
+      "rarity": 3,
+      "weight": 800,
+      "item_type": 12,
+      "item_id": 40017,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 33,
+      "expedition_drop_id": 1000002,
+      "rarity": 3,
+      "weight": 200,
+      "item_type": 12,
+      "item_id": 40003,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 34,
+      "expedition_drop_id": 1000002,
+      "rarity": 3,
+      "weight": 200,
+      "item_type": 12,
+      "item_id": 40006,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 35,
+      "expedition_drop_id": 1000002,
+      "rarity": 3,
+      "weight": 200,
+      "item_type": 12,
+      "item_id": 40009,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 36,
+      "expedition_drop_id": 1000002,
+      "rarity": 3,
+      "weight": 200,
+      "item_type": 12,
+      "item_id": 40012,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 37,
+      "expedition_drop_id": 1000002,
+      "rarity": 3,
+      "weight": 200,
+      "item_type": 12,
+      "item_id": 40015,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 38,
+      "expedition_drop_id": 1000002,
+      "rarity": 3,
+      "weight": 200,
+      "item_type": 12,
+      "item_id": 40018,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 39,
+      "expedition_drop_id": 1000002,
+      "rarity": 2,
+      "weight": 950,
+      "item_type": 12,
+      "item_id": 40001,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 40,
+      "expedition_drop_id": 1000002,
+      "rarity": 2,
+      "weight": 950,
+      "item_type": 12,
+      "item_id": 40004,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 41,
+      "expedition_drop_id": 1000002,
+      "rarity": 2,
+      "weight": 950,
+      "item_type": 12,
+      "item_id": 40007,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 42,
+      "expedition_drop_id": 1000002,
+      "rarity": 2,
+      "weight": 950,
+      "item_type": 12,
+      "item_id": 40010,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 43,
+      "expedition_drop_id": 1000002,
+      "rarity": 2,
+      "weight": 950,
+      "item_type": 12,
+      "item_id": 40013,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 44,
+      "expedition_drop_id": 1000002,
+      "rarity": 2,
+      "weight": 950,
+      "item_type": 12,
+      "item_id": 40016,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 45,
+      "expedition_drop_id": 1000002,
+      "rarity": 2,
+      "weight": 50,
+      "item_type": 12,
+      "item_id": 40002,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 46,
+      "expedition_drop_id": 1000002,
+      "rarity": 2,
+      "weight": 50,
+      "item_type": 12,
+      "item_id": 40005,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 47,
+      "expedition_drop_id": 1000002,
+      "rarity": 2,
+      "weight": 50,
+      "item_type": 12,
+      "item_id": 40008,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 48,
+      "expedition_drop_id": 1000002,
+      "rarity": 2,
+      "weight": 50,
+      "item_type": 12,
+      "item_id": 40011,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 49,
+      "expedition_drop_id": 1000002,
+      "rarity": 2,
+      "weight": 50,
+      "item_type": 12,
+      "item_id": 40014,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 50,
+      "expedition_drop_id": 1000002,
+      "rarity": 2,
+      "weight": 50,
+      "item_type": 12,
+      "item_id": 40017,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 51,
+      "expedition_drop_id": 1000002,
+      "rarity": 1,
+      "weight": 200,
+      "item_type": 7,
+      "item_id": 230100100,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 52,
+      "expedition_drop_id": 1000002,
+      "rarity": 1,
+      "weight": 75,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 4040,
+      "is_deleted": false
+    },
+    {
+      "id": 53,
+      "expedition_drop_id": 1000002,
+      "rarity": 1,
+      "weight": 250,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 2890,
+      "is_deleted": false
+    },
+    {
+      "id": 54,
+      "expedition_drop_id": 1000002,
+      "rarity": 1,
+      "weight": 475,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 2020,
+      "is_deleted": false
+    },
+    {
+      "id": 57,
+      "expedition_drop_id": 1000003,
+      "rarity": 9,
+      "weight": 1,
+      "item_type": 6,
+      "item_id": 80011,
+      "item_qty": 80,
+      "is_deleted": false
+    },
+    {
+      "id": 58,
+      "expedition_drop_id": 1000003,
+      "rarity": 3,
+      "weight": 500,
+      "item_type": 12,
+      "item_id": 40002,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 59,
+      "expedition_drop_id": 1000003,
+      "rarity": 3,
+      "weight": 500,
+      "item_type": 12,
+      "item_id": 40005,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 60,
+      "expedition_drop_id": 1000003,
+      "rarity": 3,
+      "weight": 500,
+      "item_type": 12,
+      "item_id": 40008,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 61,
+      "expedition_drop_id": 1000003,
+      "rarity": 3,
+      "weight": 500,
+      "item_type": 12,
+      "item_id": 40011,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 62,
+      "expedition_drop_id": 1000003,
+      "rarity": 3,
+      "weight": 500,
+      "item_type": 12,
+      "item_id": 40014,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 63,
+      "expedition_drop_id": 1000003,
+      "rarity": 3,
+      "weight": 500,
+      "item_type": 12,
+      "item_id": 40017,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 64,
+      "expedition_drop_id": 1000003,
+      "rarity": 3,
+      "weight": 500,
+      "item_type": 12,
+      "item_id": 40003,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 65,
+      "expedition_drop_id": 1000003,
+      "rarity": 3,
+      "weight": 500,
+      "item_type": 12,
+      "item_id": 40006,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 66,
+      "expedition_drop_id": 1000003,
+      "rarity": 3,
+      "weight": 500,
+      "item_type": 12,
+      "item_id": 40009,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 67,
+      "expedition_drop_id": 1000003,
+      "rarity": 3,
+      "weight": 500,
+      "item_type": 12,
+      "item_id": 40012,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 68,
+      "expedition_drop_id": 1000003,
+      "rarity": 3,
+      "weight": 500,
+      "item_type": 12,
+      "item_id": 40015,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 69,
+      "expedition_drop_id": 1000003,
+      "rarity": 3,
+      "weight": 500,
+      "item_type": 12,
+      "item_id": 40018,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 70,
+      "expedition_drop_id": 1000003,
+      "rarity": 2,
+      "weight": 815,
+      "item_type": 12,
+      "item_id": 40001,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 71,
+      "expedition_drop_id": 1000003,
+      "rarity": 2,
+      "weight": 815,
+      "item_type": 12,
+      "item_id": 40004,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 72,
+      "expedition_drop_id": 1000003,
+      "rarity": 2,
+      "weight": 815,
+      "item_type": 12,
+      "item_id": 40007,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 73,
+      "expedition_drop_id": 1000003,
+      "rarity": 2,
+      "weight": 815,
+      "item_type": 12,
+      "item_id": 40010,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 74,
+      "expedition_drop_id": 1000003,
+      "rarity": 2,
+      "weight": 815,
+      "item_type": 12,
+      "item_id": 40013,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 75,
+      "expedition_drop_id": 1000003,
+      "rarity": 2,
+      "weight": 815,
+      "item_type": 12,
+      "item_id": 40016,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 76,
+      "expedition_drop_id": 1000003,
+      "rarity": 2,
+      "weight": 185,
+      "item_type": 12,
+      "item_id": 40002,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 77,
+      "expedition_drop_id": 1000003,
+      "rarity": 2,
+      "weight": 185,
+      "item_type": 12,
+      "item_id": 40005,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 78,
+      "expedition_drop_id": 1000003,
+      "rarity": 2,
+      "weight": 185,
+      "item_type": 12,
+      "item_id": 40008,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 79,
+      "expedition_drop_id": 1000003,
+      "rarity": 2,
+      "weight": 185,
+      "item_type": 12,
+      "item_id": 40011,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 80,
+      "expedition_drop_id": 1000003,
+      "rarity": 2,
+      "weight": 185,
+      "item_type": 12,
+      "item_id": 40014,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 81,
+      "expedition_drop_id": 1000003,
+      "rarity": 2,
+      "weight": 185,
+      "item_type": 12,
+      "item_id": 40017,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 82,
+      "expedition_drop_id": 1000003,
+      "rarity": 1,
+      "weight": 200,
+      "item_type": 7,
+      "item_id": 330100100,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 83,
+      "expedition_drop_id": 1000003,
+      "rarity": 1,
+      "weight": 75,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 7650,
+      "is_deleted": false
+    },
+    {
+      "id": 84,
+      "expedition_drop_id": 1000003,
+      "rarity": 1,
+      "weight": 250,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 5470,
+      "is_deleted": false
+    },
+    {
+      "id": 85,
+      "expedition_drop_id": 1000003,
+      "rarity": 1,
+      "weight": 475,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 3820,
+      "is_deleted": false
+    },
+    {
+      "id": 88,
+      "expedition_drop_id": 1000004,
+      "rarity": 9,
+      "weight": 1,
+      "item_type": 6,
+      "item_id": 80011,
+      "item_qty": 20,
+      "is_deleted": false
+    },
+    {
+      "id": 89,
+      "expedition_drop_id": 1000004,
+      "rarity": 3,
+      "weight": 250,
+      "item_type": 12,
+      "item_id": 30001,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 90,
+      "expedition_drop_id": 1000004,
+      "rarity": 3,
+      "weight": 250,
+      "item_type": 12,
+      "item_id": 30004,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 91,
+      "expedition_drop_id": 1000004,
+      "rarity": 3,
+      "weight": 250,
+      "item_type": 12,
+      "item_id": 30007,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 92,
+      "expedition_drop_id": 1000004,
+      "rarity": 3,
+      "weight": 250,
+      "item_type": 12,
+      "item_id": 30010,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 93,
+      "expedition_drop_id": 1000004,
+      "rarity": 3,
+      "weight": 250,
+      "item_type": 12,
+      "item_id": 30013,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 94,
+      "expedition_drop_id": 1000004,
+      "rarity": 3,
+      "weight": 750,
+      "item_type": 12,
+      "item_id": 30002,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 95,
+      "expedition_drop_id": 1000004,
+      "rarity": 3,
+      "weight": 750,
+      "item_type": 12,
+      "item_id": 30005,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 96,
+      "expedition_drop_id": 1000004,
+      "rarity": 3,
+      "weight": 750,
+      "item_type": 12,
+      "item_id": 30008,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 97,
+      "expedition_drop_id": 1000004,
+      "rarity": 3,
+      "weight": 750,
+      "item_type": 12,
+      "item_id": 30011,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 98,
+      "expedition_drop_id": 1000004,
+      "rarity": 3,
+      "weight": 750,
+      "item_type": 12,
+      "item_id": 30014,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 99,
+      "expedition_drop_id": 1000004,
+      "rarity": 2,
+      "weight": 1000,
+      "item_type": 12,
+      "item_id": 30001,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 100,
+      "expedition_drop_id": 1000004,
+      "rarity": 2,
+      "weight": 1000,
+      "item_type": 12,
+      "item_id": 30004,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 101,
+      "expedition_drop_id": 1000004,
+      "rarity": 2,
+      "weight": 1000,
+      "item_type": 12,
+      "item_id": 30007,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 102,
+      "expedition_drop_id": 1000004,
+      "rarity": 2,
+      "weight": 1000,
+      "item_type": 12,
+      "item_id": 30010,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 103,
+      "expedition_drop_id": 1000004,
+      "rarity": 2,
+      "weight": 1000,
+      "item_type": 12,
+      "item_id": 30013,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 104,
+      "expedition_drop_id": 1000004,
+      "rarity": 1,
+      "weight": 200,
+      "item_type": 7,
+      "item_id": 130100100,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 105,
+      "expedition_drop_id": 1000004,
+      "rarity": 1,
+      "weight": 75,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 2120,
+      "is_deleted": false
+    },
+    {
+      "id": 106,
+      "expedition_drop_id": 1000004,
+      "rarity": 1,
+      "weight": 250,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 1520,
+      "is_deleted": false
+    },
+    {
+      "id": 107,
+      "expedition_drop_id": 1000004,
+      "rarity": 1,
+      "weight": 475,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 1060,
+      "is_deleted": false
+    },
+    {
+      "id": 110,
+      "expedition_drop_id": 1000005,
+      "rarity": 9,
+      "weight": 1,
+      "item_type": 6,
+      "item_id": 80011,
+      "item_qty": 40,
+      "is_deleted": false
+    },
+    {
+      "id": 111,
+      "expedition_drop_id": 1000005,
+      "rarity": 3,
+      "weight": 800,
+      "item_type": 12,
+      "item_id": 30002,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 112,
+      "expedition_drop_id": 1000005,
+      "rarity": 3,
+      "weight": 800,
+      "item_type": 12,
+      "item_id": 30005,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 113,
+      "expedition_drop_id": 1000005,
+      "rarity": 3,
+      "weight": 800,
+      "item_type": 12,
+      "item_id": 30008,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 114,
+      "expedition_drop_id": 1000005,
+      "rarity": 3,
+      "weight": 800,
+      "item_type": 12,
+      "item_id": 30011,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 115,
+      "expedition_drop_id": 1000005,
+      "rarity": 3,
+      "weight": 800,
+      "item_type": 12,
+      "item_id": 30014,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 116,
+      "expedition_drop_id": 1000005,
+      "rarity": 3,
+      "weight": 200,
+      "item_type": 12,
+      "item_id": 30003,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 117,
+      "expedition_drop_id": 1000005,
+      "rarity": 3,
+      "weight": 200,
+      "item_type": 12,
+      "item_id": 30006,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 118,
+      "expedition_drop_id": 1000005,
+      "rarity": 3,
+      "weight": 200,
+      "item_type": 12,
+      "item_id": 30009,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 119,
+      "expedition_drop_id": 1000005,
+      "rarity": 3,
+      "weight": 200,
+      "item_type": 12,
+      "item_id": 30012,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 120,
+      "expedition_drop_id": 1000005,
+      "rarity": 3,
+      "weight": 200,
+      "item_type": 12,
+      "item_id": 30015,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 121,
+      "expedition_drop_id": 1000005,
+      "rarity": 2,
+      "weight": 950,
+      "item_type": 12,
+      "item_id": 30001,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 122,
+      "expedition_drop_id": 1000005,
+      "rarity": 2,
+      "weight": 950,
+      "item_type": 12,
+      "item_id": 30004,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 123,
+      "expedition_drop_id": 1000005,
+      "rarity": 2,
+      "weight": 950,
+      "item_type": 12,
+      "item_id": 30007,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 124,
+      "expedition_drop_id": 1000005,
+      "rarity": 2,
+      "weight": 950,
+      "item_type": 12,
+      "item_id": 30010,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 125,
+      "expedition_drop_id": 1000005,
+      "rarity": 2,
+      "weight": 950,
+      "item_type": 12,
+      "item_id": 30013,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 126,
+      "expedition_drop_id": 1000005,
+      "rarity": 2,
+      "weight": 50,
+      "item_type": 12,
+      "item_id": 30002,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 127,
+      "expedition_drop_id": 1000005,
+      "rarity": 2,
+      "weight": 50,
+      "item_type": 12,
+      "item_id": 30005,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 128,
+      "expedition_drop_id": 1000005,
+      "rarity": 2,
+      "weight": 50,
+      "item_type": 12,
+      "item_id": 30008,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 129,
+      "expedition_drop_id": 1000005,
+      "rarity": 2,
+      "weight": 50,
+      "item_type": 12,
+      "item_id": 30011,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 130,
+      "expedition_drop_id": 1000005,
+      "rarity": 2,
+      "weight": 50,
+      "item_type": 12,
+      "item_id": 30014,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 131,
+      "expedition_drop_id": 1000005,
+      "rarity": 1,
+      "weight": 200,
+      "item_type": 7,
+      "item_id": 230100100,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 132,
+      "expedition_drop_id": 1000005,
+      "rarity": 1,
+      "weight": 75,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 4040,
+      "is_deleted": false
+    },
+    {
+      "id": 133,
+      "expedition_drop_id": 1000005,
+      "rarity": 1,
+      "weight": 250,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 2890,
+      "is_deleted": false
+    },
+    {
+      "id": 134,
+      "expedition_drop_id": 1000005,
+      "rarity": 1,
+      "weight": 475,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 2020,
+      "is_deleted": false
+    },
+    {
+      "id": 137,
+      "expedition_drop_id": 1000006,
+      "rarity": 9,
+      "weight": 1,
+      "item_type": 6,
+      "item_id": 80011,
+      "item_qty": 80,
+      "is_deleted": false
+    },
+    {
+      "id": 138,
+      "expedition_drop_id": 1000006,
+      "rarity": 3,
+      "weight": 500,
+      "item_type": 12,
+      "item_id": 30002,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 139,
+      "expedition_drop_id": 1000006,
+      "rarity": 3,
+      "weight": 500,
+      "item_type": 12,
+      "item_id": 30005,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 140,
+      "expedition_drop_id": 1000006,
+      "rarity": 3,
+      "weight": 500,
+      "item_type": 12,
+      "item_id": 30008,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 141,
+      "expedition_drop_id": 1000006,
+      "rarity": 3,
+      "weight": 500,
+      "item_type": 12,
+      "item_id": 30011,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 142,
+      "expedition_drop_id": 1000006,
+      "rarity": 3,
+      "weight": 500,
+      "item_type": 12,
+      "item_id": 30014,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 143,
+      "expedition_drop_id": 1000006,
+      "rarity": 3,
+      "weight": 500,
+      "item_type": 12,
+      "item_id": 30003,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 144,
+      "expedition_drop_id": 1000006,
+      "rarity": 3,
+      "weight": 500,
+      "item_type": 12,
+      "item_id": 30006,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 145,
+      "expedition_drop_id": 1000006,
+      "rarity": 3,
+      "weight": 500,
+      "item_type": 12,
+      "item_id": 30009,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 146,
+      "expedition_drop_id": 1000006,
+      "rarity": 3,
+      "weight": 500,
+      "item_type": 12,
+      "item_id": 30012,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 147,
+      "expedition_drop_id": 1000006,
+      "rarity": 3,
+      "weight": 500,
+      "item_type": 12,
+      "item_id": 30015,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 148,
+      "expedition_drop_id": 1000006,
+      "rarity": 2,
+      "weight": 815,
+      "item_type": 12,
+      "item_id": 30001,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 149,
+      "expedition_drop_id": 1000006,
+      "rarity": 2,
+      "weight": 815,
+      "item_type": 12,
+      "item_id": 30004,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 150,
+      "expedition_drop_id": 1000006,
+      "rarity": 2,
+      "weight": 815,
+      "item_type": 12,
+      "item_id": 30007,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 151,
+      "expedition_drop_id": 1000006,
+      "rarity": 2,
+      "weight": 815,
+      "item_type": 12,
+      "item_id": 30010,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 152,
+      "expedition_drop_id": 1000006,
+      "rarity": 2,
+      "weight": 815,
+      "item_type": 12,
+      "item_id": 30013,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 153,
+      "expedition_drop_id": 1000006,
+      "rarity": 2,
+      "weight": 185,
+      "item_type": 12,
+      "item_id": 30002,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 154,
+      "expedition_drop_id": 1000006,
+      "rarity": 2,
+      "weight": 185,
+      "item_type": 12,
+      "item_id": 30005,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 155,
+      "expedition_drop_id": 1000006,
+      "rarity": 2,
+      "weight": 185,
+      "item_type": 12,
+      "item_id": 30008,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 156,
+      "expedition_drop_id": 1000006,
+      "rarity": 2,
+      "weight": 185,
+      "item_type": 12,
+      "item_id": 30011,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 157,
+      "expedition_drop_id": 1000006,
+      "rarity": 2,
+      "weight": 185,
+      "item_type": 12,
+      "item_id": 30014,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 158,
+      "expedition_drop_id": 1000006,
+      "rarity": 1,
+      "weight": 200,
+      "item_type": 7,
+      "item_id": 330100100,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 159,
+      "expedition_drop_id": 1000006,
+      "rarity": 1,
+      "weight": 75,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 7650,
+      "is_deleted": false
+    },
+    {
+      "id": 160,
+      "expedition_drop_id": 1000006,
+      "rarity": 1,
+      "weight": 250,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 5470,
+      "is_deleted": false
+    },
+    {
+      "id": 161,
+      "expedition_drop_id": 1000006,
+      "rarity": 1,
+      "weight": 475,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 3820,
+      "is_deleted": false
+    },
+    {
+      "id": 164,
+      "expedition_drop_id": 1000007,
+      "rarity": 9,
+      "weight": 1,
+      "item_type": 6,
+      "item_id": 80011,
+      "item_qty": 40,
+      "is_deleted": false
+    },
+    {
+      "id": 165,
+      "expedition_drop_id": 1000007,
+      "rarity": 3,
+      "weight": 400,
+      "item_type": 6,
+      "item_id": 30001,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 166,
+      "expedition_drop_id": 1000007,
+      "rarity": 3,
+      "weight": 400,
+      "item_type": 6,
+      "item_id": 50001,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 167,
+      "expedition_drop_id": 1000007,
+      "rarity": 3,
+      "weight": 200,
+      "item_type": 3,
+      "item_id": 0,
+      "item_qty": 100,
+      "is_deleted": false
+    },
+    {
+      "id": 168,
+      "expedition_drop_id": 1000007,
+      "rarity": 2,
+      "weight": 1000,
+      "item_type": 3,
+      "item_id": 0,
+      "item_qty": 60,
+      "is_deleted": false
+    },
+    {
+      "id": 169,
+      "expedition_drop_id": 1000007,
+      "rarity": 2,
+      "weight": 1000,
+      "item_type": 3,
+      "item_id": 0,
+      "item_qty": 50,
+      "is_deleted": false
+    },
+    {
+      "id": 170,
+      "expedition_drop_id": 1000007,
+      "rarity": 2,
+      "weight": 1000,
+      "item_type": 3,
+      "item_id": 0,
+      "item_qty": 40,
+      "is_deleted": false
+    },
+    {
+      "id": 171,
+      "expedition_drop_id": 1000007,
+      "rarity": 2,
+      "weight": 1000,
+      "item_type": 3,
+      "item_id": 0,
+      "item_qty": 30,
+      "is_deleted": false
+    },
+    {
+      "id": 172,
+      "expedition_drop_id": 1000007,
+      "rarity": 2,
+      "weight": 1000,
+      "item_type": 3,
+      "item_id": 0,
+      "item_qty": 20,
+      "is_deleted": false
+    },
+    {
+      "id": 173,
+      "expedition_drop_id": 1000007,
+      "rarity": 1,
+      "weight": 75,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 8510,
+      "is_deleted": false
+    },
+    {
+      "id": 174,
+      "expedition_drop_id": 1000007,
+      "rarity": 1,
+      "weight": 250,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 6080,
+      "is_deleted": false
+    },
+    {
+      "id": 175,
+      "expedition_drop_id": 1000007,
+      "rarity": 1,
+      "weight": 475,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 4250,
+      "is_deleted": false
+    },
+    {
+      "id": 178,
+      "expedition_drop_id": 1000008,
+      "rarity": 9,
+      "weight": 1,
+      "item_type": 6,
+      "item_id": 80011,
+      "item_qty": 20,
+      "is_deleted": false
+    },
+    {
+      "id": 179,
+      "expedition_drop_id": 1000008,
+      "rarity": 3,
+      "weight": 250,
+      "item_type": 12,
+      "item_id": 20002,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 180,
+      "expedition_drop_id": 1000008,
+      "rarity": 3,
+      "weight": 250,
+      "item_type": 12,
+      "item_id": 20006,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 181,
+      "expedition_drop_id": 1000008,
+      "rarity": 3,
+      "weight": 750,
+      "item_type": 12,
+      "item_id": 20003,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 182,
+      "expedition_drop_id": 1000008,
+      "rarity": 3,
+      "weight": 750,
+      "item_type": 12,
+      "item_id": 20007,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 183,
+      "expedition_drop_id": 1000008,
+      "rarity": 2,
+      "weight": 1000,
+      "item_type": 12,
+      "item_id": 20002,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 184,
+      "expedition_drop_id": 1000008,
+      "rarity": 2,
+      "weight": 1000,
+      "item_type": 12,
+      "item_id": 20006,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 185,
+      "expedition_drop_id": 1000008,
+      "rarity": 1,
+      "weight": 200,
+      "item_type": 7,
+      "item_id": 130100100,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 186,
+      "expedition_drop_id": 1000008,
+      "rarity": 1,
+      "weight": 75,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 2120,
+      "is_deleted": false
+    },
+    {
+      "id": 187,
+      "expedition_drop_id": 1000008,
+      "rarity": 1,
+      "weight": 250,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 1520,
+      "is_deleted": false
+    },
+    {
+      "id": 188,
+      "expedition_drop_id": 1000008,
+      "rarity": 1,
+      "weight": 475,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 1060,
+      "is_deleted": false
+    },
+    {
+      "id": 191,
+      "expedition_drop_id": 1000009,
+      "rarity": 9,
+      "weight": 1,
+      "item_type": 6,
+      "item_id": 80011,
+      "item_qty": 40,
+      "is_deleted": false
+    },
+    {
+      "id": 192,
+      "expedition_drop_id": 1000009,
+      "rarity": 3,
+      "weight": 800,
+      "item_type": 12,
+      "item_id": 20003,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 193,
+      "expedition_drop_id": 1000009,
+      "rarity": 3,
+      "weight": 800,
+      "item_type": 12,
+      "item_id": 20007,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 194,
+      "expedition_drop_id": 1000009,
+      "rarity": 3,
+      "weight": 200,
+      "item_type": 12,
+      "item_id": 20004,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 195,
+      "expedition_drop_id": 1000009,
+      "rarity": 3,
+      "weight": 200,
+      "item_type": 12,
+      "item_id": 20008,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 196,
+      "expedition_drop_id": 1000009,
+      "rarity": 2,
+      "weight": 950,
+      "item_type": 12,
+      "item_id": 20002,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 197,
+      "expedition_drop_id": 1000009,
+      "rarity": 2,
+      "weight": 950,
+      "item_type": 12,
+      "item_id": 20006,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 198,
+      "expedition_drop_id": 1000009,
+      "rarity": 2,
+      "weight": 50,
+      "item_type": 12,
+      "item_id": 20003,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 199,
+      "expedition_drop_id": 1000009,
+      "rarity": 2,
+      "weight": 50,
+      "item_type": 12,
+      "item_id": 20007,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 200,
+      "expedition_drop_id": 1000009,
+      "rarity": 1,
+      "weight": 200,
+      "item_type": 7,
+      "item_id": 230100100,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 201,
+      "expedition_drop_id": 1000009,
+      "rarity": 1,
+      "weight": 75,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 4040,
+      "is_deleted": false
+    },
+    {
+      "id": 202,
+      "expedition_drop_id": 1000009,
+      "rarity": 1,
+      "weight": 250,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 2890,
+      "is_deleted": false
+    },
+    {
+      "id": 203,
+      "expedition_drop_id": 1000009,
+      "rarity": 1,
+      "weight": 475,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 2020,
+      "is_deleted": false
+    },
+    {
+      "id": 206,
+      "expedition_drop_id": 1000010,
+      "rarity": 9,
+      "weight": 1,
+      "item_type": 6,
+      "item_id": 80011,
+      "item_qty": 80,
+      "is_deleted": false
+    },
+    {
+      "id": 207,
+      "expedition_drop_id": 1000010,
+      "rarity": 3,
+      "weight": 500,
+      "item_type": 12,
+      "item_id": 20003,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 208,
+      "expedition_drop_id": 1000010,
+      "rarity": 3,
+      "weight": 500,
+      "item_type": 12,
+      "item_id": 20007,
+      "item_qty": 2,
+      "is_deleted": false
+    },
+    {
+      "id": 209,
+      "expedition_drop_id": 1000010,
+      "rarity": 3,
+      "weight": 500,
+      "item_type": 12,
+      "item_id": 20004,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 210,
+      "expedition_drop_id": 1000010,
+      "rarity": 3,
+      "weight": 500,
+      "item_type": 12,
+      "item_id": 20008,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 211,
+      "expedition_drop_id": 1000010,
+      "rarity": 2,
+      "weight": 815,
+      "item_type": 12,
+      "item_id": 20002,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 212,
+      "expedition_drop_id": 1000010,
+      "rarity": 2,
+      "weight": 815,
+      "item_type": 12,
+      "item_id": 20006,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 213,
+      "expedition_drop_id": 1000010,
+      "rarity": 2,
+      "weight": 185,
+      "item_type": 12,
+      "item_id": 20003,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 214,
+      "expedition_drop_id": 1000010,
+      "rarity": 2,
+      "weight": 185,
+      "item_type": 12,
+      "item_id": 20007,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 215,
+      "expedition_drop_id": 1000010,
+      "rarity": 1,
+      "weight": 200,
+      "item_type": 7,
+      "item_id": 330100100,
+      "item_qty": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 216,
+      "expedition_drop_id": 1000010,
+      "rarity": 1,
+      "weight": 75,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 7650,
+      "is_deleted": false
+    },
+    {
+      "id": 217,
+      "expedition_drop_id": 1000010,
+      "rarity": 1,
+      "weight": 250,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 5470,
+      "is_deleted": false
+    },
+    {
+      "id": 218,
+      "expedition_drop_id": 1000010,
+      "rarity": 1,
+      "weight": 475,
+      "item_type": 4,
+      "item_id": 0,
+      "item_qty": 3820,
+      "is_deleted": false
+    }
+  ],
+  "probabilities": [
+    {
+      "rarity": 1,
+      "weight": 80,
+      "is_deleted": false
+    },
+    {
+      "rarity": 2,
+      "weight": 15,
+      "is_deleted": false
+    },
+    {
+      "rarity": 3,
+      "weight": 5,
+      "is_deleted": false
+    }
+  ],
+  "unlocks": [
+    {
+      "id": 1,
+      "condition_type": 1,
+      "condition_value": 0,
+      "add_slot_count": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 2,
+      "condition_type": 2,
+      "condition_value": 10010212,
+      "add_slot_count": 1,
+      "is_deleted": false
+    },
+    {
+      "id": 3,
+      "condition_type": 2,
+      "condition_value": 10010413,
+      "add_slot_count": 1,
+      "is_deleted": false
+    }
+  ]
+}

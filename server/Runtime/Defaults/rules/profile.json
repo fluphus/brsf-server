@@ -1,0 +1,9 @@
+{
+  "policy_version": "local-profile-v1",
+  "name_maximum_length": 64,
+  "message_maximum_length": 256,
+  "input_policy": "bounded-bmp-no-marks-other-symbol-unassigned-control-preserve-spaces",
+  "birthday_policy": "M/d-leap-year2000-set-once",
+  "title_policy": "zero-only-until-real-ownership-source",
+  "ng_word_policy": "not-reconstructed"
+}

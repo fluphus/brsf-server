@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>24</SupportedOSPlatformVersion>
+    <RootNamespace>Brs.AndroidLocalHost</RootNamespace>
+    <OutputType>Exe</OutputType>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationId>org.brsfragment.localhost</ApplicationId>
+    <ApplicationVersion>15</ApplicationVersion>
+    <ApplicationDisplayVersion>0.1.14</ApplicationDisplayVersion>
+    <AndroidManifest>AndroidManifest.xml</AndroidManifest>
+    <AndroidEnableMarshalMethods>false</AndroidEnableMarshalMethods>
+    <RuntimeIdentifiers>android-arm64;android-x64</RuntimeIdentifiers>
+    <AndroidPackageFormats>apk</AndroidPackageFormats>
+    <AndroidUseAssemblyStore>true</AndroidUseAssemblyStore>
+    <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <AndroidUseDebugRuntime>false</AndroidUseDebugRuntime>
+    <AndroidEnableAssemblyCompression>true</AndroidEnableAssemblyCompression>
+    <EnableDiagnostics>false</EnableDiagnostics>
+    <AndroidEnableProfiler>false</AndroidEnableProfiler>
+    <UseInterpreter>false</UseInterpreter>
+    <AndroidUseInterpreter>false</AndroidUseInterpreter>
+    <RunAOTCompilation>false</RunAOTCompilation>
+    <PublishTrimmed>false</PublishTrimmed>
+    <TrimMode>copy</TrimMode>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <Optimize>true</Optimize>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <!-- The Android SDK creates the developer's debug key when no external release configuration is supplied. -->
+    <AndroidKeyStore Condition="'$(AndroidKeyStore)' == ''">false</AndroidKeyStore>
+  </PropertyGroup>
+  <Import Project="$(ReleaseSigningPropertiesFile)" Condition="'$(ReleaseSigningPropertiesFile)' != '' And Exists('$(ReleaseSigningPropertiesFile)')" />
+  <ItemGroup>
+    <ProjectReference Include="../server/Runtime/Brs.Portable.Runtime.csproj" AdditionalProperties="DebugType=none;DebugSymbols=false" />
+    <ProjectReference Include="../server/Transport/Brs.Portable.Transport.csproj" AdditionalProperties="DebugType=none;DebugSymbols=false" />
+    <ProjectReference Include="../server/Content/Brs.Portable.Content.csproj" AdditionalProperties="DebugType=none;DebugSymbols=false" />
+    <ProjectReference Include="../server/KeyMaterial/Brs.SupportedClient.KeyMaterial.csproj" AdditionalProperties="DebugType=none;DebugSymbols=false" />
+  </ItemGroup>
+  <Target Name="ValidateSigningConfiguration" BeforeTargets="PrepareForBuild" Condition="'$(ReleaseSigningPropertiesFile)' != '' And !Exists('$(ReleaseSigningPropertiesFile)')">
+    <Error Text="ReleaseSigningPropertiesFile does not exist. Keep signing configuration outside the checkout." />
+  </Target>
+</Project>

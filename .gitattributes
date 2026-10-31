@@ -1,0 +1,15 @@
+* text=auto
+# C# raw SQL literals participate in existing database schema identities.
+*.cs -text
+*.csproj text eol=lf
+*.props text eol=lf
+*.targets text eol=lf
+# JSON includes byte-pinned gameplay inputs and the resource-package inventory.
+*.json -text
+*.js text eol=lf
+*.cjs text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.ps1 text eol=crlf

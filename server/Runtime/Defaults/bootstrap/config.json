@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "resource_revision": 142,
+  "master_revision": 136,
+  "clock_offset": "+09:00",
+  "notice": { "revision": 1, "file": "notice.json" },
+  "terms": {
+    "revision": 1,
+    "load_path": "TermOfService/term_of_service",
+    "file_name": "r7ff1689876d81450caa2f4c6cdce16f5_638047715420429410",
+    "md5": "453b5021345ca2c258169b4067a79566"
+  },
+  "privacy": {
+    "revision": 1,
+    "load_path": "TermOfService/privacy_policy",
+    "file_name": "re277902dad2daf7784e652308552ceaf_638258877189368110",
+    "md5": "00016034168dd297ef0d162ddb316243"
+  }
+}

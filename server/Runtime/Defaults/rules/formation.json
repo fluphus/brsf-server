@@ -1,0 +1,2547 @@
+{
+  "policy_version": "local-formation-home-v1",
+  "source_master_sha256": "8082ce3e3746a8e38d58c7e640892b80caef374f767a1d39f84db94d7108945b",
+  "source_rules_sha256": "d521f996dbb2b66c733798a94e21a7cfed4ddc5599bc456686333038a39aa86c",
+  "source_background_sha256": "5ca01df4c088b05c662c95c06c77fc689cd505a55444c4fa218a8f3110532af5",
+  "max_deck_num": 10,
+  "max_slots": 6,
+  "max_equips": 3,
+  "support_slot_no": 6,
+  "default_background_id": 100101,
+  "default_deck_name_format": "\u7de8\u6210{0}",
+  "deck_name_max_utf16": 64,
+  "reset_policy": "preserve-name-clear-nonmain",
+  "total_power_policy": "nonnegative-audit-only",
+  "home_policy": "owned1to6-unique-card-and-chara-ordered",
+  "profile_count_policy": "current-holdings-not-historical-acquisitions",
+  "cards": [
+    {
+      "card_id": 30010002,
+      "chara_id": 2,
+      "rarity": 3,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "card_id": 30010003,
+      "chara_id": 3,
+      "rarity": 3,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "card_id": 30010004,
+      "chara_id": 4,
+      "rarity": 3,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "card_id": 40060015,
+      "chara_id": 15,
+      "rarity": 4,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "card_id": 40080014,
+      "chara_id": 14,
+      "rarity": 4,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "card_id": 40110011,
+      "chara_id": 11,
+      "rarity": 4,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "card_id": 40120010,
+      "chara_id": 10,
+      "rarity": 4,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "card_id": 40170006,
+      "chara_id": 6,
+      "rarity": 4,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "card_id": 40210213,
+      "chara_id": 213,
+      "rarity": 4,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010001,
+      "chara_id": 1,
+      "rarity": 5,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010002,
+      "chara_id": 2,
+      "rarity": 5,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010003,
+      "chara_id": 3,
+      "rarity": 5,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010004,
+      "chara_id": 4,
+      "rarity": 5,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010005,
+      "chara_id": 5,
+      "rarity": 5,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010006,
+      "chara_id": 6,
+      "rarity": 5,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010007,
+      "chara_id": 7,
+      "rarity": 5,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010008,
+      "chara_id": 8,
+      "rarity": 5,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010009,
+      "chara_id": 9,
+      "rarity": 5,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010010,
+      "chara_id": 10,
+      "rarity": 5,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010011,
+      "chara_id": 11,
+      "rarity": 5,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010012,
+      "chara_id": 12,
+      "rarity": 5,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010013,
+      "chara_id": 13,
+      "rarity": 5,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010014,
+      "chara_id": 14,
+      "rarity": 5,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010015,
+      "chara_id": 15,
+      "rarity": 5,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010016,
+      "chara_id": 16,
+      "rarity": 5,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010017,
+      "chara_id": 17,
+      "rarity": 5,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010018,
+      "chara_id": 18,
+      "rarity": 5,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50010019,
+      "chara_id": 19,
+      "rarity": 5,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50011001,
+      "chara_id": 1,
+      "rarity": 5,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50012001,
+      "chara_id": 1,
+      "rarity": 5,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50020005,
+      "chara_id": 5,
+      "rarity": 5,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50020006,
+      "chara_id": 6,
+      "rarity": 5,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50020007,
+      "chara_id": 7,
+      "rarity": 5,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50020008,
+      "chara_id": 8,
+      "rarity": 5,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50030201,
+      "chara_id": 201,
+      "rarity": 5,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50030202,
+      "chara_id": 202,
+      "rarity": 5,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50030203,
+      "chara_id": 203,
+      "rarity": 5,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50040001,
+      "chara_id": 1,
+      "rarity": 5,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50040002,
+      "chara_id": 2,
+      "rarity": 5,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50040003,
+      "chara_id": 3,
+      "rarity": 5,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50040004,
+      "chara_id": 4,
+      "rarity": 5,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50050012,
+      "chara_id": 12,
+      "rarity": 5,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50050013,
+      "chara_id": 13,
+      "rarity": 5,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50050014,
+      "chara_id": 14,
+      "rarity": 5,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50060002,
+      "chara_id": 2,
+      "rarity": 5,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50060003,
+      "chara_id": 3,
+      "rarity": 5,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50070009,
+      "chara_id": 9,
+      "rarity": 5,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50070010,
+      "chara_id": 10,
+      "rarity": 5,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50070011,
+      "chara_id": 11,
+      "rarity": 5,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50080006,
+      "chara_id": 6,
+      "rarity": 5,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50080018,
+      "chara_id": 18,
+      "rarity": 5,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50090015,
+      "chara_id": 15,
+      "rarity": 5,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50090016,
+      "chara_id": 16,
+      "rarity": 5,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50090017,
+      "chara_id": 17,
+      "rarity": 5,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50090018,
+      "chara_id": 18,
+      "rarity": 5,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50100204,
+      "chara_id": 204,
+      "rarity": 5,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50100205,
+      "chara_id": 205,
+      "rarity": 5,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50100206,
+      "chara_id": 206,
+      "rarity": 5,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50100207,
+      "chara_id": 207,
+      "rarity": 5,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50110001,
+      "chara_id": 1,
+      "rarity": 5,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50110008,
+      "chara_id": 8,
+      "rarity": 5,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50120001,
+      "chara_id": 1,
+      "rarity": 5,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50120004,
+      "chara_id": 4,
+      "rarity": 5,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50120016,
+      "chara_id": 16,
+      "rarity": 5,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50130006,
+      "chara_id": 6,
+      "rarity": 5,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50130007,
+      "chara_id": 7,
+      "rarity": 5,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50160016,
+      "chara_id": 16,
+      "rarity": 5,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50170001,
+      "chara_id": 1,
+      "rarity": 5,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50170007,
+      "chara_id": 7,
+      "rarity": 5,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50170013,
+      "chara_id": 13,
+      "rarity": 5,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50190001,
+      "chara_id": 1,
+      "rarity": 5,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50200208,
+      "chara_id": 208,
+      "rarity": 5,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50200209,
+      "chara_id": 209,
+      "rarity": 5,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50200210,
+      "chara_id": 210,
+      "rarity": 5,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50210026,
+      "chara_id": 26,
+      "rarity": 5,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "card_id": 50210212,
+      "chara_id": 212,
+      "rarity": 5,
+      "equip_type": 102,
+      "is_deleted": false
+    }
+  ],
+  "equips": [
+    {
+      "equip_id": 110100101,
+      "equip_group_id": 1101001,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 110100102,
+      "equip_group_id": 1101001,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 110100103,
+      "equip_group_id": 1101001,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 110200101,
+      "equip_group_id": 1102001,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 110200102,
+      "equip_group_id": 1102001,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 110200103,
+      "equip_group_id": 1102001,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 110200104,
+      "equip_group_id": 1102001,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 110200105,
+      "equip_group_id": 1102001,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 110200106,
+      "equip_group_id": 1102001,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 111100101,
+      "equip_group_id": 1111001,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 111100102,
+      "equip_group_id": 1111001,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 111100103,
+      "equip_group_id": 1111001,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 111100104,
+      "equip_group_id": 1111001,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 111100105,
+      "equip_group_id": 1111001,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 111100106,
+      "equip_group_id": 1111001,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 111200101,
+      "equip_group_id": 1112001,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 111200102,
+      "equip_group_id": 1112001,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 111200103,
+      "equip_group_id": 1112001,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 111200104,
+      "equip_group_id": 1112001,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 111200105,
+      "equip_group_id": 1112001,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 111200106,
+      "equip_group_id": 1112001,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 111300101,
+      "equip_group_id": 1113001,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 111300102,
+      "equip_group_id": 1113001,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 111300103,
+      "equip_group_id": 1113001,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 120100101,
+      "equip_group_id": 1201001,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 120100102,
+      "equip_group_id": 1201001,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 120100103,
+      "equip_group_id": 1201001,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 130100100,
+      "equip_group_id": 1301001,
+      "equip_type": 301,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 210100101,
+      "equip_group_id": 2101001,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 210100102,
+      "equip_group_id": 2101001,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 210100103,
+      "equip_group_id": 2101001,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 210100104,
+      "equip_group_id": 2101001,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 210100105,
+      "equip_group_id": 2101001,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 210100106,
+      "equip_group_id": 2101001,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 210100107,
+      "equip_group_id": 2101001,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 210100108,
+      "equip_group_id": 2101001,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 210200101,
+      "equip_group_id": 2102001,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 210200102,
+      "equip_group_id": 2102001,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 210200103,
+      "equip_group_id": 2102001,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 210200104,
+      "equip_group_id": 2102001,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 211100101,
+      "equip_group_id": 2111001,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 211100102,
+      "equip_group_id": 2111001,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 211100103,
+      "equip_group_id": 2111001,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 211100104,
+      "equip_group_id": 2111001,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 211200101,
+      "equip_group_id": 2112001,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 211200102,
+      "equip_group_id": 2112001,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 211200103,
+      "equip_group_id": 2112001,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 211200104,
+      "equip_group_id": 2112001,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 211300101,
+      "equip_group_id": 2113001,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 211300102,
+      "equip_group_id": 2113001,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 211300103,
+      "equip_group_id": 2113001,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 211300104,
+      "equip_group_id": 2113001,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 211300105,
+      "equip_group_id": 2113001,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 211300106,
+      "equip_group_id": 2113001,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 211300107,
+      "equip_group_id": 2113001,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 211300108,
+      "equip_group_id": 2113001,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 220100101,
+      "equip_group_id": 2201001,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 220100102,
+      "equip_group_id": 2201001,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 220100103,
+      "equip_group_id": 2201001,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 220100104,
+      "equip_group_id": 2201001,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 230100100,
+      "equip_group_id": 2301001,
+      "equip_type": 301,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 310100100,
+      "equip_group_id": 3101001,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 310100201,
+      "equip_group_id": 3101002,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 310100202,
+      "equip_group_id": 3101002,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 310100203,
+      "equip_group_id": 3101002,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 310100204,
+      "equip_group_id": 3101002,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 310100205,
+      "equip_group_id": 3101002,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 310100206,
+      "equip_group_id": 3101002,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 310100207,
+      "equip_group_id": 3101002,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 310100208,
+      "equip_group_id": 3101002,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 310100300,
+      "equip_group_id": 3101003,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 310100400,
+      "equip_group_id": 3101004,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 310200100,
+      "equip_group_id": 3102001,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 310200200,
+      "equip_group_id": 3102002,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 310200300,
+      "equip_group_id": 3102003,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 310200401,
+      "equip_group_id": 3102004,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 310200402,
+      "equip_group_id": 3102004,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 310200403,
+      "equip_group_id": 3102004,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 310200404,
+      "equip_group_id": 3102004,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 310200405,
+      "equip_group_id": 3102004,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 310200406,
+      "equip_group_id": 3102004,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 310200407,
+      "equip_group_id": 3102004,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 310200408,
+      "equip_group_id": 3102004,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 310200409,
+      "equip_group_id": 3102004,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 310200410,
+      "equip_group_id": 3102004,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 310200411,
+      "equip_group_id": 3102004,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 310200412,
+      "equip_group_id": 3102004,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311100100,
+      "equip_group_id": 3111001,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311100201,
+      "equip_group_id": 3111002,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311100202,
+      "equip_group_id": 3111002,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311100203,
+      "equip_group_id": 3111002,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311100204,
+      "equip_group_id": 3111002,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311100205,
+      "equip_group_id": 3111002,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311100206,
+      "equip_group_id": 3111002,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311100207,
+      "equip_group_id": 3111002,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311100208,
+      "equip_group_id": 3111002,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311100209,
+      "equip_group_id": 3111002,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311100210,
+      "equip_group_id": 3111002,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311100211,
+      "equip_group_id": 3111002,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311100212,
+      "equip_group_id": 3111002,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311100300,
+      "equip_group_id": 3111003,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311100400,
+      "equip_group_id": 3111004,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311200100,
+      "equip_group_id": 3112001,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311200200,
+      "equip_group_id": 3112002,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311200300,
+      "equip_group_id": 3112003,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311200401,
+      "equip_group_id": 3112004,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311200402,
+      "equip_group_id": 3112004,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311200403,
+      "equip_group_id": 3112004,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311200404,
+      "equip_group_id": 3112004,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311200405,
+      "equip_group_id": 3112004,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311200406,
+      "equip_group_id": 3112004,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311200407,
+      "equip_group_id": 3112004,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311200408,
+      "equip_group_id": 3112004,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311200409,
+      "equip_group_id": 3112004,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311200410,
+      "equip_group_id": 3112004,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311200411,
+      "equip_group_id": 3112004,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311200412,
+      "equip_group_id": 3112004,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311300101,
+      "equip_group_id": 3113001,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311300102,
+      "equip_group_id": 3113001,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311300103,
+      "equip_group_id": 3113001,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311300104,
+      "equip_group_id": 3113001,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311300105,
+      "equip_group_id": 3113001,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311300106,
+      "equip_group_id": 3113001,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311300107,
+      "equip_group_id": 3113001,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311300108,
+      "equip_group_id": 3113001,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311300200,
+      "equip_group_id": 3113002,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311300300,
+      "equip_group_id": 3113003,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 311300400,
+      "equip_group_id": 3113004,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 320100100,
+      "equip_group_id": 3201001,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 320100200,
+      "equip_group_id": 3201002,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 320100300,
+      "equip_group_id": 3201003,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 320100400,
+      "equip_group_id": 3201004,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 320100500,
+      "equip_group_id": 3201005,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 320100600,
+      "equip_group_id": 3201006,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 320100701,
+      "equip_group_id": 3201007,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 320100702,
+      "equip_group_id": 3201007,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 320100703,
+      "equip_group_id": 3201007,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 320100704,
+      "equip_group_id": 3201007,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 320100705,
+      "equip_group_id": 3201007,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 320100706,
+      "equip_group_id": 3201007,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 320100707,
+      "equip_group_id": 3201007,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 320100708,
+      "equip_group_id": 3201007,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 330100100,
+      "equip_group_id": 3301001,
+      "equip_type": 301,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 330200100,
+      "equip_group_id": 3302001,
+      "equip_type": 302,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 410100100,
+      "equip_group_id": 4101001,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 410100200,
+      "equip_group_id": 4101002,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 410100300,
+      "equip_group_id": 4101003,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 410100400,
+      "equip_group_id": 4101004,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 410100500,
+      "equip_group_id": 4101005,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 410100600,
+      "equip_group_id": 4101006,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 410100700,
+      "equip_group_id": 4101007,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 410200100,
+      "equip_group_id": 4102001,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 410200200,
+      "equip_group_id": 4102002,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 410200300,
+      "equip_group_id": 4102003,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 410200400,
+      "equip_group_id": 4102004,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 410200500,
+      "equip_group_id": 4102005,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 410200600,
+      "equip_group_id": 4102006,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 410200700,
+      "equip_group_id": 4102007,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 410200800,
+      "equip_group_id": 4102008,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 410200900,
+      "equip_group_id": 4102009,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411100100,
+      "equip_group_id": 4111001,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411100200,
+      "equip_group_id": 4111002,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411100300,
+      "equip_group_id": 4111003,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411100400,
+      "equip_group_id": 4111004,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411100500,
+      "equip_group_id": 4111005,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411100600,
+      "equip_group_id": 4111006,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411100700,
+      "equip_group_id": 4111007,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411100800,
+      "equip_group_id": 4111008,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411100900,
+      "equip_group_id": 4111009,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411101000,
+      "equip_group_id": 4111010,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411101100,
+      "equip_group_id": 4111011,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411200100,
+      "equip_group_id": 4112001,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411200200,
+      "equip_group_id": 4112002,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411200300,
+      "equip_group_id": 4112003,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411200400,
+      "equip_group_id": 4112004,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411200500,
+      "equip_group_id": 4112005,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411200600,
+      "equip_group_id": 4112006,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411200700,
+      "equip_group_id": 4112007,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411200800,
+      "equip_group_id": 4112008,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411200900,
+      "equip_group_id": 4112009,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411201000,
+      "equip_group_id": 4112010,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411300100,
+      "equip_group_id": 4113001,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411300200,
+      "equip_group_id": 4113002,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411300300,
+      "equip_group_id": 4113003,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411300400,
+      "equip_group_id": 4113004,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411300500,
+      "equip_group_id": 4113005,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411300600,
+      "equip_group_id": 4113006,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411300700,
+      "equip_group_id": 4113007,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 411300800,
+      "equip_group_id": 4113008,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420100100,
+      "equip_group_id": 4201001,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420100200,
+      "equip_group_id": 4201002,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420100300,
+      "equip_group_id": 4201003,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420100400,
+      "equip_group_id": 4201004,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420100500,
+      "equip_group_id": 4201005,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420100600,
+      "equip_group_id": 4201006,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420100700,
+      "equip_group_id": 4201007,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420100800,
+      "equip_group_id": 4201008,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420100900,
+      "equip_group_id": 4201009,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420101000,
+      "equip_group_id": 4201010,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420101100,
+      "equip_group_id": 4201011,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420101200,
+      "equip_group_id": 4201012,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420101300,
+      "equip_group_id": 4201013,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420101400,
+      "equip_group_id": 4201014,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420101500,
+      "equip_group_id": 4201015,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420101600,
+      "equip_group_id": 4201016,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420101700,
+      "equip_group_id": 4201017,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420101800,
+      "equip_group_id": 4201018,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420101900,
+      "equip_group_id": 4201019,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420102000,
+      "equip_group_id": 4201020,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420102100,
+      "equip_group_id": 4201021,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420102200,
+      "equip_group_id": 4201022,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420102300,
+      "equip_group_id": 4201023,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420102400,
+      "equip_group_id": 4201024,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420102500,
+      "equip_group_id": 4201025,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420102600,
+      "equip_group_id": 4201026,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420102700,
+      "equip_group_id": 4201027,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420102800,
+      "equip_group_id": 4201028,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420102900,
+      "equip_group_id": 4201029,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420103000,
+      "equip_group_id": 4201030,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420103100,
+      "equip_group_id": 4201031,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 420103200,
+      "equip_group_id": 4201032,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 430100100,
+      "equip_group_id": 4301001,
+      "equip_type": 301,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 430200100,
+      "equip_group_id": 4302001,
+      "equip_type": 302,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510100100,
+      "equip_group_id": 5101001,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510100200,
+      "equip_group_id": 5101002,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510100300,
+      "equip_group_id": 5101003,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510100400,
+      "equip_group_id": 5101004,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510100500,
+      "equip_group_id": 5101005,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510100600,
+      "equip_group_id": 5101006,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510100700,
+      "equip_group_id": 5101007,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510100800,
+      "equip_group_id": 5101008,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510100900,
+      "equip_group_id": 5101009,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510101000,
+      "equip_group_id": 5101010,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510101100,
+      "equip_group_id": 5101011,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510101200,
+      "equip_group_id": 5101012,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510101300,
+      "equip_group_id": 5101013,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510101400,
+      "equip_group_id": 5101014,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510101500,
+      "equip_group_id": 5101015,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510101600,
+      "equip_group_id": 5101016,
+      "equip_type": 101,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510200100,
+      "equip_group_id": 5102001,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510200200,
+      "equip_group_id": 5102002,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510200300,
+      "equip_group_id": 5102003,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510200400,
+      "equip_group_id": 5102004,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510200500,
+      "equip_group_id": 5102005,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510200600,
+      "equip_group_id": 5102006,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510200700,
+      "equip_group_id": 5102007,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510200800,
+      "equip_group_id": 5102008,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510200900,
+      "equip_group_id": 5102009,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510201000,
+      "equip_group_id": 5102010,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510201100,
+      "equip_group_id": 5102011,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510201200,
+      "equip_group_id": 5102012,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510201300,
+      "equip_group_id": 5102013,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510201400,
+      "equip_group_id": 5102014,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510201500,
+      "equip_group_id": 5102015,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510201600,
+      "equip_group_id": 5102016,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510201700,
+      "equip_group_id": 5102017,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 510201800,
+      "equip_group_id": 5102018,
+      "equip_type": 102,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511100100,
+      "equip_group_id": 5111001,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511100200,
+      "equip_group_id": 5111002,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511100300,
+      "equip_group_id": 5111003,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511100400,
+      "equip_group_id": 5111004,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511100500,
+      "equip_group_id": 5111005,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511100600,
+      "equip_group_id": 5111006,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511100700,
+      "equip_group_id": 5111007,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511100800,
+      "equip_group_id": 5111008,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511100900,
+      "equip_group_id": 5111009,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511101000,
+      "equip_group_id": 5111010,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511101100,
+      "equip_group_id": 5111011,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511101200,
+      "equip_group_id": 5111012,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511101300,
+      "equip_group_id": 5111013,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511101400,
+      "equip_group_id": 5111014,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511101500,
+      "equip_group_id": 5111015,
+      "equip_type": 111,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511200100,
+      "equip_group_id": 5112001,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511200200,
+      "equip_group_id": 5112002,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511200300,
+      "equip_group_id": 5112003,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511200400,
+      "equip_group_id": 5112004,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511200500,
+      "equip_group_id": 5112005,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511200600,
+      "equip_group_id": 5112006,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511200700,
+      "equip_group_id": 5112007,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511200800,
+      "equip_group_id": 5112008,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511200900,
+      "equip_group_id": 5112009,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511201000,
+      "equip_group_id": 5112010,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511201100,
+      "equip_group_id": 5112011,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511201200,
+      "equip_group_id": 5112012,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511201300,
+      "equip_group_id": 5112013,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511201400,
+      "equip_group_id": 5112014,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511201500,
+      "equip_group_id": 5112015,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511201600,
+      "equip_group_id": 5112016,
+      "equip_type": 112,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511300100,
+      "equip_group_id": 5113001,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511300200,
+      "equip_group_id": 5113002,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511300300,
+      "equip_group_id": 5113003,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511300400,
+      "equip_group_id": 5113004,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511300500,
+      "equip_group_id": 5113005,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511300600,
+      "equip_group_id": 5113006,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511300700,
+      "equip_group_id": 5113007,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511300800,
+      "equip_group_id": 5113008,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511300900,
+      "equip_group_id": 5113009,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 511301000,
+      "equip_group_id": 5113010,
+      "equip_type": 113,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 520100100,
+      "equip_group_id": 5201001,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 520100200,
+      "equip_group_id": 5201002,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 520100300,
+      "equip_group_id": 5201003,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 520100400,
+      "equip_group_id": 5201004,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 520100500,
+      "equip_group_id": 5201005,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 520100600,
+      "equip_group_id": 5201006,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 520100700,
+      "equip_group_id": 5201007,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 520100800,
+      "equip_group_id": 5201008,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 520100900,
+      "equip_group_id": 5201009,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 520101000,
+      "equip_group_id": 5201010,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 520101100,
+      "equip_group_id": 5201011,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 520101200,
+      "equip_group_id": 5201012,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 520101300,
+      "equip_group_id": 5201013,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 520101400,
+      "equip_group_id": 5201014,
+      "equip_type": 201,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 530100100,
+      "equip_group_id": 5301001,
+      "equip_type": 301,
+      "is_deleted": false
+    },
+    {
+      "equip_id": 530200100,
+      "equip_group_id": 5302001,
+      "equip_type": 302,
+      "is_deleted": false
+    }
+  ],
+  "awakening": [
+    {
+      "rarity": 3,
+      "awakening_count": 0,
+      "sub2_unlocked": false,
+      "is_deleted": false
+    },
+    {
+      "rarity": 3,
+      "awakening_count": 1,
+      "sub2_unlocked": true,
+      "is_deleted": false
+    },
+    {
+      "rarity": 3,
+      "awakening_count": 2,
+      "sub2_unlocked": true,
+      "is_deleted": false
+    },
+    {
+      "rarity": 3,
+      "awakening_count": 3,
+      "sub2_unlocked": true,
+      "is_deleted": false
+    },
+    {
+      "rarity": 3,
+      "awakening_count": 4,
+      "sub2_unlocked": true,
+      "is_deleted": false
+    },
+    {
+      "rarity": 3,
+      "awakening_count": 5,
+      "sub2_unlocked": true,
+      "is_deleted": false
+    },
+    {
+      "rarity": 4,
+      "awakening_count": 0,
+      "sub2_unlocked": false,
+      "is_deleted": false
+    },
+    {
+      "rarity": 4,
+      "awakening_count": 1,
+      "sub2_unlocked": true,
+      "is_deleted": false
+    },
+    {
+      "rarity": 4,
+      "awakening_count": 2,
+      "sub2_unlocked": true,
+      "is_deleted": false
+    },
+    {
+      "rarity": 4,
+      "awakening_count": 3,
+      "sub2_unlocked": true,
+      "is_deleted": false
+    },
+    {
+      "rarity": 4,
+      "awakening_count": 4,
+      "sub2_unlocked": true,
+      "is_deleted": false
+    },
+    {
+      "rarity": 4,
+      "awakening_count": 5,
+      "sub2_unlocked": true,
+      "is_deleted": false
+    },
+    {
+      "rarity": 5,
+      "awakening_count": 0,
+      "sub2_unlocked": false,
+      "is_deleted": false
+    },
+    {
+      "rarity": 5,
+      "awakening_count": 1,
+      "sub2_unlocked": true,
+      "is_deleted": false
+    },
+    {
+      "rarity": 5,
+      "awakening_count": 2,
+      "sub2_unlocked": true,
+      "is_deleted": false
+    },
+    {
+      "rarity": 5,
+      "awakening_count": 3,
+      "sub2_unlocked": true,
+      "is_deleted": false
+    },
+    {
+      "rarity": 5,
+      "awakening_count": 4,
+      "sub2_unlocked": true,
+      "is_deleted": false
+    },
+    {
+      "rarity": 5,
+      "awakening_count": 5,
+      "sub2_unlocked": true,
+      "is_deleted": false
+    }
+  ]
+}

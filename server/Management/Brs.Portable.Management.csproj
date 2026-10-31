@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Shared/Brs.Portable.Shared.csproj" />
+    <ProjectReference Include="../Core/Brs.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="../../webui/index.html" LogicalName="Brs.Local.ManagementWeb.index.html" />
+    <EmbeddedResource Include="../../webui/app.js" LogicalName="Brs.Local.ManagementWeb.app.js" />
+    <EmbeddedResource Include="../../webui/api.js" LogicalName="Brs.Local.ManagementWeb.api.js" />
+    <EmbeddedResource Include="../../webui/styles.css" LogicalName="Brs.Local.ManagementWeb.styles.css" />
+    <EmbeddedResource Include="../../webui/i18n.js" LogicalName="Brs.Local.ManagementWeb.i18n.js" />
+    <EmbeddedResource Include="../../webui/catalog-locales.js" LogicalName="Brs.Local.ManagementWeb.catalog-locales.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="labels.json" LogicalName="Brs.Local.Management.Labels.json" />
+  </ItemGroup>
+</Project>
