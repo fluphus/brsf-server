@@ -11,7 +11,7 @@ $ErrorActionPreference = 'Stop'
 $repoRoot = Split-Path -Parent $PSScriptRoot
 if (-not $ArtifactsPath) { $ArtifactsPath = Join-Path $repoRoot 'artifacts/android' }
 $buildArguments = @('build', (Join-Path $repoRoot 'android/Brs.AndroidHost.csproj'), '-t:SignAndroidPackage',
-    '--configuration', $Configuration, '--artifacts-path', ([IO.Path]::GetFullPath($ArtifactsPath)), '--verbosity', 'minimal')
+    '--configuration', $Configuration, '--artifacts-path', ([IO.Path]::GetFullPath($ArtifactsPath)), '--verbosity', 'minimal', '-m:1')
 foreach ($propertyName in @('AndroidSdkDirectory', 'JavaSdkDirectory', 'ReleaseSigningPropertiesFile')) {
     $propertyValue = Get-Variable -Name $propertyName -ValueOnly
     if ($propertyValue) { $buildArguments += "-p:${propertyName}=$([IO.Path]::GetFullPath($propertyValue))" }

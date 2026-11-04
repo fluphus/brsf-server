@@ -6,6 +6,8 @@ BRS FRAGMENT 的本地服务端、WebUI 管理界面和 Android 宿主。PC 与 
 
 Android 玩家可以直接安装[已签名的 2.5.0 ARM64 游戏客户端](https://github.com/fluphus/brsf-server/releases/download/v0.1.14/BRSFragment-2.5.0-local-arm64.apk)。如需自行构建，请准备原版 2.5.0 XAPK，按[客户端构建说明](client/README.md)生成并签名 APK。
 
+直接游玩时，再安装 [BRS 本机服务 0.1.14](https://github.com/fluphus/brsf-server/releases/download/v0.1.14/BRSFragment-LocalHost-0.1.14.apk)。下载下面的全部资源分卷并解压，在本机服务中导入 `brs-resources.tar`，点击“启动”，随后打开游戏。两个 APK 和资源分卷均在同一发行页。
+
 配套资源见 [v0.1.14 发行页](https://github.com/fluphus/brsf-server/releases/tag/v0.1.14)。下载全部 ZIP 分卷并保存在同一个文件夹，用支持分卷 ZIP 的解压工具打开 `.zip` 文件，解压得到 `brs-resources.tar`。详见[资源下载与导入说明](docs/resource-import.md)。
 
 ## 仓库内容
