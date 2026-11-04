@@ -1,14 +1,35 @@
 # BRSF Server
 
-BRS FRAGMENT 的本地服务端、WebUI 管理界面和 Android 宿主。PC 与 Android 共用服务端逻辑和同一份管理界面，支持中文、日语和英语，默认跟随系统语言。
+[简体中文](README.md) | [日本語](README.ja.md) | [English](README.en.md)
 
-**构建源码 → 导入一个配套资源包 → 启动服务。** 不需要额外的私有输入包或开发者原工作目录。游戏客户端单独安装。
+BRS FRAGMENT 本地运行版，适用于 Android 8.0 及以上的 ARM64 设备。
 
-Android 玩家可以直接安装[已签名的 2.5.0 ARM64 游戏客户端](https://github.com/fluphus/brsf-server/releases/download/v0.1.14/BRSFragment-2.5.0-local-arm64.apk)。如需自行构建，请准备原版 2.5.0 XAPK，按[客户端构建说明](client/README.md)生成并签名 APK。
+## 下载
 
-直接游玩时，再安装 [BRS 本机服务 0.1.14](https://github.com/fluphus/brsf-server/releases/download/v0.1.14/BRSFragment-LocalHost-0.1.14.apk)。下载下面的全部资源分卷并解压，在本机服务中导入 `brs-resources.tar`，点击“启动”，随后打开游戏。两个 APK 和资源分卷均在同一发行页。
+请下载下面的 **两个 APK 和全部四个资源分卷**。
 
-配套资源见 [v0.1.14 发行页](https://github.com/fluphus/brsf-server/releases/tag/v0.1.14)。下载全部 ZIP 分卷并保存在同一个文件夹，用支持分卷 ZIP 的解压工具打开 `.zip` 文件，解压得到 `brs-resources.tar`。详见[资源下载与导入说明](docs/resource-import.md)。
+| 用途 | 文件 |
+| --- | --- |
+| 游戏客户端 | [BRSFragment-2.5.0-local-arm64.apk](https://github.com/fluphus/brsf-server/releases/download/v0.1.14/BRSFragment-2.5.0-local-arm64.apk) |
+| BRS 本机服务 | [BRSFragment-LocalHost-0.1.14.apk](https://github.com/fluphus/brsf-server/releases/download/v0.1.14/BRSFragment-LocalHost-0.1.14.apk) |
+| 资源分卷 1 | [brs-resources.z01](https://github.com/fluphus/brsf-server/releases/download/v0.1.14/brs-resources.z01) |
+| 资源分卷 2 | [brs-resources.z02](https://github.com/fluphus/brsf-server/releases/download/v0.1.14/brs-resources.z02) |
+| 资源分卷 3 | [brs-resources.z03](https://github.com/fluphus/brsf-server/releases/download/v0.1.14/brs-resources.z03) |
+| 资源分卷 4（解压入口） | [brs-resources.zip](https://github.com/fluphus/brsf-server/releases/download/v0.1.14/brs-resources.zip) |
+
+## 安装、解压与启动
+
+1. 下载表中的六个文件。将四个资源分卷放在同一文件夹，保留原文件名。
+2. 安装两个 APK，按 Android 的系统提示完成安装。
+3. 用支持分卷 ZIP 的解压工具打开 **`brs-resources.zip`**。工具会自动读取 `.z01`、`.z02`、`.z03`，解出 **`brs-resources.tar`**。
+4. 打开 **BRS 本机服务**，在服务停止时点击 **“导入资源包”**，选择解出的 `brs-resources.tar`，等待导入完成。
+5. 点击 **“启动”**，等待服务就绪，再打开 **BRS FRAGMENT** 开始游戏。
+
+资源只需导入一次。之后每次游玩，先启动 BRS 本机服务，再打开游戏。
+
+解压和导入期间建议准备约 25 GB 可用空间。导入成功后，可以删除下载分卷及解出的 TAR，宿主会保留已导入资源。
+
+更新时先正常结束战斗、退出游戏并停止本机服务，再覆盖安装新版 APK。资源细节见[资源导入说明](docs/resource-import.md)。
 
 ## 仓库内容
 
