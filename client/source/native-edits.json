@@ -1,0 +1,96 @@
+{
+  "schema": "brsf.client-native-edits.v1",
+  "member": "lib/arm64-v8a/libil2cpp.so",
+  "base": "Recovered native image before gameplay edits; not the original protected ELF",
+  "ranges": [
+    {
+      "name": "Crashlytics.SetUserId",
+      "offset": "0x3fe74e0",
+      "bytes": 4,
+      "original": "f44fbea9",
+      "replacement": "c0035fd6",
+      "recovered_preimage_exact": true
+    },
+    {
+      "name": "Crashlytics.SetCustomKey",
+      "offset": "0x3fe745c",
+      "bytes": 4,
+      "original": "f50f1df8",
+      "replacement": "c0035fd6",
+      "recovered_preimage_exact": true
+    },
+    {
+      "name": "Crashlytics.LogException",
+      "offset": "0x3fe7554",
+      "bytes": 4,
+      "original": "f44fbea9",
+      "replacement": "c0035fd6",
+      "recovered_preimage_exact": true
+    },
+    {
+      "name": "IAP timeout",
+      "offset": "0x1612c38",
+      "bytes": 4,
+      "original": "00d0671e",
+      "replacement": "00106e1e",
+      "recovered_preimage_exact": true
+    },
+    {
+      "name": "local purchase provider",
+      "offset": "0x1f9b418",
+      "bytes": 268,
+      "original": "96ab01b0d6f643f9c00240f908cc44398800083608e040b948000035dcafc897f7c401d0e8aa7939c800003580ab01b000f443f9aaafc897e8030032e8aa3939c00240f908cc4439a800083608e040b968000035ceafc897c00240f9085c40f9d7c401d0e9d27739160140f9c9000035a0aa01d000b045f999afc897e8030032e8d23739a8aa01d008b145f989d67739080140f9085d40f9180140f9c9000035a0ab0190000c45f98dafc897e803003288d63739400340f908cc4439a800083608e040b968000035b1afc897400340f9280340f9aaa901b0095c40f9085d40f94a7147f9390140f91a0940f9400140f9aeafc897e10318aae20319aae3031aaae4031faaf70300aa2e26e097",
+      "replacement": "d7c401d0e9d27739c9000035a0aa01d000b045f9b2afc897e8030032e8d23739a8aa01d008b145f989d67739080140f9085d40f9180140f9c9000035a0ab0190000c45f9a6afc897e803003288d63739400340f908cc4439a800083608e040b968000035caafc897400340f9280340f9aaa901b0095c40f9085d40f94a7147f9390140f91a0940f9400140f9c7afc897e10318aae20319aae3031aaae4031faaf70300aa4726e097a00240f95bb6c697f40300aae00900b441b2815258b9c697800900b4a7b8c697400900b4f60300aae10318aa020080d281a3ce97e00314aa21b681524eb9c697400800b49db8c697000800b4fa0300aae10316aa020080d2759ad897f6031aaa1f2003d5",
+      "recovered_preimage_exact": true
+    },
+    {
+      "name": "purchase telemetry",
+      "offset": "0x20d0bc4",
+      "bytes": 4,
+      "original": "d801eb97",
+      "replacement": "1f2003d5",
+      "recovered_preimage_exact": true
+    },
+    {
+      "name": "rating gate",
+      "offset": "0x19d7254",
+      "bytes": 4,
+      "original": "68620039",
+      "replacement": "7f620039",
+      "recovered_preimage_exact": true
+    },
+    {
+      "name": "normal paid product gate",
+      "offset": "0x20ea624",
+      "bytes": 4,
+      "original": "e0079f1a",
+      "replacement": "20008052",
+      "recovered_preimage_exact": true
+    },
+    {
+      "name": "VIP gate",
+      "offset": "0x1a14b44",
+      "bytes": 4,
+      "original": "805f0054",
+      "replacement": "a0270054",
+      "recovered_preimage_exact": true
+    },
+    {
+      "name": "VIP wrapper",
+      "offset": "0x1a15024",
+      "bytes": 180,
+      "original": "33d301d0730645f9f90300aa680240f909cd4439c900083609e140b989000035e00308aad7c8de97680240f9095d40f93b2140f95b0300b50acd4439ea0008360ae140b9aa000035e00308aacdc8de97680240f9095d40f908d601903c0140f9088941f9000140f9cdc8de9708d601f069d601f0083142f929dd46f9e1031caafb0300aa020140f9230140f9f684e797680240f9085d40f91b2100f914d301f094f641f9e00319aae1031baa820240f999a13194",
+      "replacement": "33d301d0730645f914d301f094f641f929000014e00a40f9005842f9a03b00b441f48152e2031faa5ae00794203b00b4fa0300aa482f40f9c83a00b4081140b988360035402b40f9e1c30091e2031faab893f497e0350034e01b40f9e1031faa9994f49760350034e1031aaae00317aa0200805203008052e4031faa6f0b0094803800b4e20300aa010c40f9e00b40f9e8d501d0080944f9030140f97d748b949c0100141f2003d51f2003d51f2003d51f2003d5",
+      "recovered_preimage_exact": true
+    },
+    {
+      "name": "CDN origin = API origin",
+      "offset": "0x1b98778",
+      "bytes": 4,
+      "original": "ff8301d1",
+      "replacement": "c0035fd6",
+      "ABI": "static x0 input/result; RET before prologue"
+    }
+  ],
+  "allowed_total_bytes": 484
+}

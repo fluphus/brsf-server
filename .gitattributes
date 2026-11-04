@@ -13,3 +13,5 @@
 *.md text eol=lf
 *.py text eol=lf
 *.ps1 text eol=crlf
+/client/patches/*.bsdiff binary
+/client/additions/*.axml binary

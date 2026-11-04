@@ -1,0 +1,2 @@
+# Only maintainers regenerating deltas need this; build_client.py uses stdlib.
+bsdiff4==1.2.6

@@ -4,6 +4,8 @@ BRS FRAGMENT 的本地服务端、WebUI 管理界面和 Android 宿主。PC 与 
 
 **构建源码 → 导入一个配套资源包 → 启动服务。** 不需要额外的私有输入包或开发者原工作目录。游戏客户端单独安装。
 
+Android 玩家可以直接安装[已签名的 2.5.0 ARM64 游戏客户端](https://github.com/fluphus/brsf-server/releases/download/v0.1.14/BRSFragment-2.5.0-local-arm64.apk)。如需自行构建，请准备原版 2.5.0 XAPK，按[客户端构建说明](client/README.md)生成并签名 APK。
+
 配套资源见 [v0.1.14 发行页](https://github.com/fluphus/brsf-server/releases/tag/v0.1.14)。下载全部 ZIP 分卷并保存在同一个文件夹，用支持分卷 ZIP 的解压工具打开 `.zip` 文件，解压得到 `brs-resources.tar`。详见[资源下载与导入说明](docs/resource-import.md)。
 
 ## 仓库内容
@@ -12,6 +14,7 @@ BRS FRAGMENT 的本地服务端、WebUI 管理界面和 Android 宿主。PC 与 
 server/    共享服务端、桌面入口和默认玩法配置
 webui/     管理界面、样式和翻译
 android/   Android 前台服务、资源导入和 WebView 封装
+client/    从原版 XAPK 构建本地游戏客户端的工具和补丁
 tests/     核心逻辑与宿主离线测试
 tools/     构建、资源打包和源码检查工具
 docs/      构建与资源导入说明
@@ -60,5 +63,3 @@ npm test --prefix tests/webui
 python -B tests/tools/test_source_tree.py
 python tools/check-source-tree.py
 ```
-
-测试源码留在仓库供维护使用，不打进正式 APK。
