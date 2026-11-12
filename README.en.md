@@ -1,6 +1,6 @@
 # BLACK★ROCK SHOOTER FRAGMENT local server
 
-![Black Rock Shooter Fragment local server cover](https://repository-images.githubusercontent.com/1440778528/f446f828-3b6d-491b-b8a6-15fd2cf9a784)
+![Black Rock Shooter Fragment local server cover](https://raw.githubusercontent.com/fluphus/brsf-server/d52ec402fd0a6bee58bd4107cfac87ac14e8c00a/brsf-cover-en.jpg)
 
 **黑岩射手 FRAGMENT / ブラック★ロックシューター FRAGMENT**
 
