@@ -8,11 +8,11 @@
 
 An unofficial server for Black Rock Shooter Fragment. Run it on a PC or through the Android host and manage it in your browser. The game client runs on ARM64 devices with Android 8.0 or later.
 
-**[Download the Android release](https://github.com/fluphus/brsf-server/releases/latest)** · [Installation guide](#install-extract-import-and-launch) · [Development and builds](#development-and-builds)
+**[Download the Android release](https://github.com/fluphus/brsf-server/releases/latest)** · [Installation guide](#install-extract-import-and-launch) · [Windows server](#windows-server)
 
 ## Downloads
 
-Download **both APKs and all four resource volumes**.
+To play on Android, download **both APKs and all four resource volumes**.
 
 | Purpose | File |
 | --- | --- |
@@ -37,6 +37,19 @@ Allow about 25 GB of free space during extraction and import. After a successful
 
 To update, finish your battle, close the game, stop the host service, and install the new APKs over the existing apps.
 
+## Windows server
+
+Download the [Windows x64 server ZIP](https://github.com/fluphus/brsf-server/releases/download/v0.1.14/BRSFragment-Server-0.1.14-win-x64.zip) and the four resource volumes listed above. The Windows package includes the server, browser management interface, and .NET runtime.
+
+Unzip the server package. Put all four resource volumes in one folder and open `brs-resources.zip` with a split ZIP extractor. Place the extracted `brs-resources.tar` next to `Brs.Local.Host.exe`, then open PowerShell in that folder and run:
+
+```powershell
+.\Brs.Local.Host.exe --data-directory .\local-data --import-content .\brs-resources.tar
+.\Brs.Local.Host.exe --data-directory .\local-data
+```
+
+After the first start, open `http://127.0.0.1:18180/` and sign in with the administrator credential in `local-data/owner.key`. Import resources once. For later sessions, run the second command. Press Ctrl+C to stop the server.
+
 ## Development and builds
 
 The repository contains the shared server, WebUI, Android host, client patches, and build tools. The host and WebUI support Chinese, Japanese, and English, with system-language detection.
@@ -46,12 +59,10 @@ The repository contains the shared server, WebUI, Android host, client patches, 
 - [Build and configure the desktop server](server/BUILDING.md)
 - [Resource package details](docs/resource-import.md)
 
-The desktop server requires .NET SDK 10.0.402 or a later patch in the same series. Choose a data directory and import the resource TAR before starting it.
+Building the desktop server from source requires .NET SDK 10.0.402 or a later patch in the same series. Choose a data directory and import the resource TAR before starting it.
 
 ```sh
 dotnet build server/Host/Brs.Local.Host.csproj -c Release
 dotnet run --project server/Host -c Release --no-build -- --data-directory ./local-data --import-content ./brs-resources.tar
 dotnet run --project server/Host -c Release --no-build -- --data-directory ./local-data
 ```
-
-The desktop management page is `http://127.0.0.1:18180/`. Its generated administrator credential is stored in `owner.key` in the selected data directory. Press Ctrl+C to stop the server.

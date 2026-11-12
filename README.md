@@ -12,7 +12,7 @@
 
 ## 下载
 
-请下载下面的 **两个 APK 和全部四个资源分卷**。
+在 Android 上游玩，请下载下面的 **两个 APK 和全部四个资源分卷**。
 
 | 用途 | 文件 |
 | --- | --- |
@@ -53,7 +53,20 @@ docs/      构建与资源导入说明
 
 ## PC 使用
 
-需要 .NET SDK 10.0.402 或同一补丁系列的后续版本。先编译，再导入配套资源包；`local-data` 是自行选择的账号与资源保存目录。
+下载 [Windows x64 服务端 ZIP](https://github.com/fluphus/brsf-server/releases/download/v0.1.14/BRSFragment-Server-0.1.14-win-x64.zip) 和上面列出的四个资源分卷。Windows 包内含服务端、网页管理界面和 .NET 运行时。
+
+解压服务端 ZIP。将四个资源分卷放在同一目录，用支持分卷 ZIP 的工具打开 `brs-resources.zip`，把解出的 `brs-resources.tar` 放到 `Brs.Local.Host.exe` 旁。在服务端目录打开 PowerShell，依次执行：
+
+```powershell
+.\Brs.Local.Host.exe --data-directory .\local-data --import-content .\brs-resources.tar
+.\Brs.Local.Host.exe --data-directory .\local-data
+```
+
+首次启动后，打开 `http://127.0.0.1:18180/`，用 `local-data/owner.key` 中的管理员凭据登录。资源只需导入一次。之后运行第二条命令即可，按 Ctrl+C 停止服务。
+
+### 从源码运行
+
+从源码构建需要 .NET SDK 10.0.402 或同一补丁系列的后续版本。`local-data` 是账号与资源的保存目录。
 
 ```sh
 dotnet build server/Host/Brs.Local.Host.csproj -c Release
@@ -61,9 +74,7 @@ dotnet run --project server/Host -c Release --no-build -- --data-directory ./loc
 dotnet run --project server/Host -c Release --no-build -- --data-directory ./local-data
 ```
 
-管理页地址为 `http://127.0.0.1:18180/`。首次启动生成的管理员凭据保存在所选数据目录的 `owner.key` 中，供本机登录使用。服务默认只监听本机。关闭时按 Ctrl+C。
-
-资源包只需导入一次；之后直接启动即可。更多参数见[服务端说明](server/BUILDING.md)。
+服务默认只监听本机。更多参数见[服务端说明](server/BUILDING.md)。
 
 ## Android 使用
 

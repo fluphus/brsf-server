@@ -8,11 +8,11 @@
 
 『ブラック★ロックシューター FRAGMENT』の非公式サーバーです。PC または Android で動作し、ブラウザーで管理できます。ゲームクライアントは Android 8.0 以降の ARM64 端末に対応します。
 
-**[Android 版のダウンロード](https://github.com/fluphus/brsf-server/releases/latest)** · [インストール手順](#インストール解凍起動) · [開発・ビルド](#開発ビルド)
+**[Android 版のダウンロード](https://github.com/fluphus/brsf-server/releases/latest)** · [インストール手順](#インストール解凍起動) · [Windows 版サーバー](#windows-版サーバー)
 
 ## ダウンロード
 
-**APK 2 個とリソース分割ファイル 4 個すべて**をダウンロードしてください。
+Android でプレイするには、**APK 2 個とリソース分割ファイル 4 個すべて**をダウンロードしてください。
 
 | 用途 | ファイル |
 | --- | --- |
@@ -37,6 +37,19 @@
 
 更新時は戦闘を正常に終了し、ゲームとホストのサービスを終了してから、新しい APK を上書きインストールしてください。
 
+## Windows 版サーバー
+
+[Windows x64 サーバー ZIP](https://github.com/fluphus/brsf-server/releases/download/v0.1.14/BRSFragment-Server-0.1.14-win-x64.zip) と、上記のリソース分割ファイル 4 個をダウンロードします。Windows 版にはサーバー、ブラウザー管理画面、.NET ランタイムが含まれます。
+
+サーバー ZIP を解凍します。分割ファイルを同じフォルダーに置き、分割 ZIP 対応ツールで `brs-resources.zip` を開きます。取り出した `brs-resources.tar` を `Brs.Local.Host.exe` と同じフォルダーに置き、そこで PowerShell を開いて次のコマンドを順に実行します。
+
+```powershell
+.\Brs.Local.Host.exe --data-directory .\local-data --import-content .\brs-resources.tar
+.\Brs.Local.Host.exe --data-directory .\local-data
+```
+
+初回起動後、`http://127.0.0.1:18180/` を開き、`local-data/owner.key` の管理者認証情報でログインします。取り込みは初回のみです。次回からは 2 行目のコマンドで起動し、Ctrl+C で停止します。
+
 ## 開発・ビルド
 
 リポジトリには共通サーバー、WebUI、Android ホスト、クライアントパッチ、ビルドツールが含まれます。ホストと WebUI は中国語・日本語・英語に対応し、初期状態では端末の言語に従います。
@@ -46,12 +59,10 @@
 - [PC サーバーのビルドと設定](server/BUILDING.md)
 - [リソースパッケージの詳細](docs/resource-import.md)
 
-PC サーバーには .NET SDK 10.0.402、または同じ系列の新しいパッチ版を使用します。データの保存先を指定し、リソース TAR をインポートしてから起動してください。
+PC サーバーをソースからビルドするには、.NET SDK 10.0.402 または同じ系列の新しいパッチ版を使用します。データの保存先を指定し、リソース TAR をインポートしてから起動してください。
 
 ```sh
 dotnet build server/Host/Brs.Local.Host.csproj -c Release
 dotnet run --project server/Host -c Release --no-build -- --data-directory ./local-data --import-content ./brs-resources.tar
 dotnet run --project server/Host -c Release --no-build -- --data-directory ./local-data
 ```
-
-PC の管理画面は `http://127.0.0.1:18180/` です。管理者の認証情報は指定したデータフォルダー内の `owner.key` に生成されます。サーバーの終了には Ctrl+C を押します。
