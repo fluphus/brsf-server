@@ -1,5 +1,7 @@
 # BLACK★ROCK SHOOTER FRAGMENT local server
 
+![Black Rock Shooter Fragment local server cover](https://repository-images.githubusercontent.com/1440778528/f446f828-3b6d-491b-b8a6-15fd2cf9a784)
+
 **黑岩射手 FRAGMENT / ブラック★ロックシューター FRAGMENT**
 
 [简体中文](README.md) | [日本語](README.ja.md) | [English](README.en.md)
