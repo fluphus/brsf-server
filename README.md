@@ -1,12 +1,12 @@
-# 黑岩射手 FRAGMENT · 本地运行版
+# 黑岩射手 FRAGMENT local server
 
 **BLACK★ROCK SHOOTER FRAGMENT / ブラック★ロックシューター FRAGMENT**
 
 [简体中文](README.md) | [日本語](README.ja.md) | [English](README.en.md)
 
-这是《黑岩射手 FRAGMENT》手游的非官方本地运行项目，提供 Android 本机服务、PC 服务端和网页管理界面。游戏客户端适用于 Android 8.0 及以上的 ARM64 设备。
+《黑岩射手 FRAGMENT》的非官方服务端，可在 PC 或 Android 上运行，附带网页管理界面。游戏客户端适用于 Android 8.0 及以上的 ARM64 设备。
 
-**[下载 Android 本地运行版](https://github.com/fluphus/brsf-server/releases/latest)** · [安装步骤](#安装解压与启动) · [PC 服务端](#pc-使用)
+**[下载 Android 版](https://github.com/fluphus/brsf-server/releases/latest)** · [安装步骤](#安装解压与启动) · [PC 服务端](#pc-使用)
 
 ## 下载
 

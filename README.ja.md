@@ -1,10 +1,10 @@
-# ブラック★ロックシューター FRAGMENT · ローカルサーバー
+# ブラック★ロックシューター FRAGMENT ローカルサーバー
 
 **BLACK★ROCK SHOOTER FRAGMENT / 黑岩射手 FRAGMENT**
 
 [简体中文](README.md) | [日本語](README.ja.md) | [English](README.en.md)
 
-スマートフォン向けゲーム『ブラック★ロックシューター FRAGMENT』をローカルで動かすための非公式プロジェクトです。Android ホスト、PC 向けサーバー、Web 管理画面を提供します。ゲームクライアントは Android 8.0 以降の ARM64 端末に対応します。
+『ブラック★ロックシューター FRAGMENT』の非公式サーバーです。PC または Android で動作し、ブラウザーで管理できます。ゲームクライアントは Android 8.0 以降の ARM64 端末に対応します。
 
 **[Android 版のダウンロード](https://github.com/fluphus/brsf-server/releases/latest)** · [インストール手順](#インストール解凍起動) · [開発・ビルド](#開発ビルド)
 
