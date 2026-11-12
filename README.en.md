@@ -1,8 +1,12 @@
-# BRSF Server
+# BLACK★ROCK SHOOTER FRAGMENT · Local Server
+
+**黑岩射手 FRAGMENT / ブラック★ロックシューター FRAGMENT**
 
 [简体中文](README.md) | [日本語](README.ja.md) | [English](README.en.md)
 
-Run BRS FRAGMENT locally on an ARM64 device with Android 8.0 or later.
+An unofficial project to run the Black Rock Shooter Fragment mobile game locally. It includes an Android host, a desktop server, and a web management interface. The game client runs on ARM64 devices with Android 8.0 or later.
+
+**[Download the Android release](https://github.com/fluphus/brsf-server/releases/latest)** · [Installation guide](#install-extract-import-and-launch) · [Development and builds](#development-and-builds)
 
 ## Downloads
 
